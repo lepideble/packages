@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://packages.lepideble.github.io/ship-of-harkinian.xml">
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://lepideble.github.io/packages/ship-of-harkinian.xml">
     <name>Ship of Harkinian</name>
     <summary>port of the 1998 Nintendo 64 video game The Legend of Zelda: Ocarina of Time</summary>
     <group arch="Linux-x86_64">
