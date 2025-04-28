@@ -87,7 +87,7 @@ class App(abc.ABC):
                 group.append(Implementation(
                     ManifestDigest(sha256new=archive_digest),
                     Archive(href=archive_url, size=archive_size, extract=extract),
-                    id=f'{arch}-{version['version']}',
+                    id=f"{arch}-{version['version']}",
                     released=version['released'],
                     version=version['version'],
                 ))
