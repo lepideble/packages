@@ -31,4 +31,5 @@ jobs:
     strategy:
       matrix:
         app:
+          - 2-ship-2-harkinian
           - ship-of-harkinian
