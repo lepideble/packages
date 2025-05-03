@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://lepideble.github.io/packages/2-ship-2-harkinian.xml">
+    <name>2 Ship 2 Harkinian</name>
+    <summary>port of the 2000 Nintendo 64 video game The Legend of Zelda: Majora's Mask</summary>
+    <group arch="Linux-x86_64">
+        <command name="run" path="2ship.appimage"/>
+        <implementation id="Linux-x86_64-1.1.2" released="2024-12-20" version="1.1.2">
+            <manifest-digest sha256new="ZKRSDZEBTIXOZ2FG56NPSWZ4JD7CB4OW5AAQ65BKMD4EX64AHYJQ"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/1.1.2/2Ship-Satoko-Charlie-Linux.zip" size="10713498"/>
+        </implementation>
+        <implementation id="Linux-x86_64-1.1.1" released="2024-11-14" version="1.1.1">
+            <manifest-digest sha256new="QNV7BGQGZW6OUGZZAV4GVBJA4BKG5K5WTTB27BTE6PETKXKI4B3Q"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/1.1.1/2Ship-Satoko-Bravo-Linux.zip" size="10709437"/>
+        </implementation>
+        <implementation id="Linux-x86_64-1.1.0" released="2024-11-10" version="1.1.0">
+            <manifest-digest sha256new="5SOCOSLZDTUCL7ZWFR5ETGK5HTHGJ26NCIFTJ4TINOR3DQGGK6BQ"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/1.1.0/2Ship-Satoko-Alfa-Linux.zip" size="10708358"/>
+        </implementation>
+        <implementation id="Linux-x86_64-1.0.2" released="2024-07-11" version="1.0.2">
+            <manifest-digest sha256new="I5V4QGXVFRIXVRDMCIQKZKEYLDVU7SIDZUTGHCXVMGRCV3XG6EGA"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/1.0.2/2Ship-Rika-Charlie-Linux.zip" size="10198424"/>
+        </implementation>
+        <implementation id="Linux-x86_64-1.0.1" released="2024-06-01" version="1.0.1">
+            <manifest-digest sha256new="WDLV3GQ4FZSMLYJZ6CIYDF36EFSAIBWS4QM7H27FDGIKQCWKVJ5Q"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/1.0.1/2Ship-Rika-Bravo-Linux.zip" size="10188614"/>
+        </implementation>
+        <implementation id="Linux-x86_64-1.0.0" released="2024-05-27" version="1.0.0">
+            <manifest-digest sha256new="7PBMAM7TIKXKEMZOVK5TESPHW53KCUE2AEMZAXAWASURQFIFZ6IA"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/1.0.0/2Ship-Rika-Alfa-Linux.zip" size="9736781"/>
+        </implementation>
+    </group>
+    <group arch="Windows-x86_64">
+        <command name="run" path="2ship.exe"/>
+        <implementation id="Windows-x86_64-1.1.2" released="2024-12-20" version="1.1.2">
+            <manifest-digest sha256new="H7TAFS3NLYCL5HAW7UL444AIGR2KKTLN7N6QJCTIZ4JO25SUWQ5Q"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/1.1.2/2Ship-Satoko-Charlie-Win64.zip" size="29964709"/>
+        </implementation>
+        <implementation id="Windows-x86_64-1.1.1" released="2024-11-14" version="1.1.1">
+            <manifest-digest sha256new="ZSMTOR6IIVL2MX7AK7FMBWEUEXGTCJ7PR6ORQKZFFJPXRJPZ7KTA"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/1.1.1/2Ship-Satoko-Bravo-Win64.zip" size="29463397"/>
+        </implementation>
+        <implementation id="Windows-x86_64-1.1.0" released="2024-11-10" version="1.1.0">
+            <manifest-digest sha256new="F46O3CYS2VM6SB7F6WS6N5TFJJLBPYFA3HDBEWW44R7NIVGHMEAA"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/1.1.0/2Ship-Satoko-Alfa-Win64.zip" size="33870688"/>
+        </implementation>
+        <implementation id="Windows-x86_64-1.0.2" released="2024-07-11" version="1.0.2">
+            <manifest-digest sha256new="X5PVOESGSFMNFUZEKRXFAXS6SKNFGOMLWOOKAX7MYWGU2ZUZX7OA"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/1.0.2/2Ship-Rika-Charlie-Win64.zip" size="26899784"/>
+        </implementation>
+        <implementation id="Windows-x86_64-1.0.1" released="2024-06-01" version="1.0.1">
+            <manifest-digest sha256new="A6AUWP7JT2TKEUDWBSS2Q3NFZQCMEFA32JFLWGW5JCKUBVZTBRNQ"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/1.0.1/2Ship-Rika-Bravo-Win64.zip" size="26605951"/>
+        </implementation>
+        <implementation id="Windows-x86_64-1.0.0" released="2024-05-27" version="1.0.0">
+            <manifest-digest sha256new="ZJESVCEQSHLELGKMIFF757S2WT5SY7OASOYE6DOXMLZMUGLPGZEA"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/1.0.0/2Ship-Rika-Alfa-Win64.zip" size="25324343"/>
+        </implementation>
+    </group>
+</interface>
