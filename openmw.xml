@@ -1,0 +1,131 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet href="resources/feed.xsl" type="text/xsl"?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://lepideble.github.io/packages/openmw.xml">
+    <name>OpenMW</name>
+    <summary>open-source open-world RPG game engine that supports playing Morrowind</summary>
+    <homepage>https://openmw.org/</homepage>
+    <icon href="https://lepideble.github.io/packages/openmw.png" type="image/png"/>
+    <group arch="Linux-x86_64">
+        <command name="run" path="openmw"/>
+        <command name="cs" path="openmw-cs"/>
+        <command name="launcher" path="openmw-launcher"/>
+        <implementation id="Linux-x86_64-0.49.0-rc7" released="2025-04-28" stability="testing" version="0.49.0-rc7">
+            <manifest-digest sha256new="G5MRFKPNTXTD7A7MGXOIPGPL64UDFOL3BZ4UST5IF4VLTWFNZSWQ"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-49-rc7/openmw-0.49.0-Linux-64BitRC7.tar.gz" size="81361884" extract="openmw-0.49.0-Linux-64BitRC7"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.49.0-rc6" released="2025-03-16" stability="testing" version="0.49.0-rc6">
+            <manifest-digest sha256new="JKJRRTJMUHTCO76E5J4HYHWCG3CUPRTFNHAYZ2LDE2AO6R6DE3RQ"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-49-rc6/openmw-0.49.0-Linux-64BitRC6.tar.gz" size="77719014" extract="openmw-0.49.0-Linux-64BitRC6"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.49.0-rc5" released="2025-02-19" stability="testing" version="0.49.0-rc5">
+            <manifest-digest sha256new="QED3JQWMXTE4BNWNTBEFZXFECY7WTHQK5HP63WBZFMLCPGEUGLAQ"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-49-rc5/openmw-0.49.0-Linux-64BitRC5.tar.gz" size="77701091" extract="openmw-0.49.0-Linux-64BitRC5"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.49.0-rc4" released="2025-02-03" stability="testing" version="0.49.0-rc4">
+            <manifest-digest sha256new="HF3BSX6VJB5GPHYYT2NA6APTKPR6J3PTHKUIDP2RYWCZ76EHKA2Q"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-49-rc4/openmw-0.49.0-Linux-64BitRC4.tar.gz" size="77691002" extract="openmw-0.49.0-Linux-64BitRC4"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.49.0-rc3" released="2025-01-15" stability="testing" version="0.49.0-rc3">
+            <manifest-digest sha256new="R4OXL24Q42ZCMBHLXIDYNYQZFUPYZ6K4B5YQQ2CLGNG3LTEDYKJQ"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-49-rc3/openmw-0.49.0-Linux-64BitRC3.tar.gz" size="77695972" extract="openmw-0.49.0-Linux-64BitRC3"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.49.0-rc2" released="2025-01-06" stability="testing" version="0.49.0-rc2">
+            <manifest-digest sha256new="MYRSKYIUBTM4T6RO6EEIBSVQCRH3SDKT3O2SIKHM2UJPL35XZT2Q"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-49-rc2/openmw-0.49.0-Linux-64BitRC2.tar.gz" size="77647240" extract="openmw-0.49.0-Linux-64BitRC2-qt6"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.48.0" released="2023-07-22" stability="stable" version="0.48.0">
+            <manifest-digest sha256new="YE37ZPQK4AOJGAXEXUGI24XDG6L2GE47RWJLELV5SIOKTOQVQK3A"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-0.48.0/openmw-0.48.0-Linux-64Bit.tar.gz" size="65866502" extract="openmw-0.48.0-Linux-64Bit"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.47.0" released="2021-11-05" stability="stable" version="0.47.0">
+            <manifest-digest sha256new="OJOUE6LXYCGV4X3WTBC66XH3CHOOMPM6V6MSGHRWGAD3TCEZOC2Q"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-0.47.0/openmw-0.47.0-Linux-64Bit.tar.gz" size="60082252" extract="openmw-0.47.0-Linux-64Bit"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.46.0" released="2020-06-15" stability="stable" version="0.46.0">
+            <manifest-digest sha256new="DGEUFNTW72CXXSRZSYQTYOTWAAAN5EAUWPZMT36G37SMQKUHS56A"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-0.46.0/openmw-0.46.0-Linux-64Bit.tar.gz" size="47472443" extract="openmw-0.46.0-Linux-64Bit"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.45.0" released="2019-03-28" stability="stable" version="0.45.0">
+            <manifest-digest sha256new="64EZDTMH7PSRI5KY5MDWLDNUDSX22KTDKN4E2WS7VWOGHSW4DENQ"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-0.45.0/openmw-0.45.0-Linux-64Bit.tar.gz" size="39588046" extract="openmw-0.45.0-Linux-64Bit"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.44.0" released="2018-08-07" stability="stable" version="0.44.0">
+            <manifest-digest sha256new="KD4SQFLVTKTMYHEJSTWAZWYWOUGFHVYYRQ4WBLEWEIDSBWGVYURA"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-0.44.0/openmw-0.44.0-Linux-64Bit.tar.gz" size="28691755" extract="openmw-0.44.0-Linux-64Bit"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.43.0" released="2017-12-04" stability="stable" version="0.43.0">
+            <manifest-digest sha256new="4B5RUZHHCEWUY2PP3LRTUBCL2WTK5DQ6JCNXGYEY42DZ7ICNWSDA"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-0.43.0/openmw-0.43.0-Linux-64Bit.tar.gz" size="23093923" extract="openmw-0.43.0-Linux-64Bit"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.42.0" released="2017-08-01" stability="stable" version="0.42.0">
+            <manifest-digest sha256new="JA22GJKB2B2DLW3APE2X6SPL52TVXH4PRTSP7XCB6JY3YKQYJORQ"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-0.42.0/openmw-0.42.0-Linux-64Bit.tar.gz" size="22574939" extract="openmw-0.42.0-Linux-64Bit"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.41.0" released="2016-12-27" stability="stable" version="0.41.0">
+            <manifest-digest sha256new="NPYOXD3N5ZVV2D4GICDAHAKOIUKPQ4BZZNNTVYPEF776YXSKNOOA"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-0.41.0/openmw-0.41.0-Linux-64Bit.tar.gz" size="22332152" extract="openmw-0.41.0-Linux-64Bit"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.40.0" released="2016-09-04" stability="stable" version="0.40.0">
+            <manifest-digest sha256new="PL5S72ZR5TR3H5L6G6LG2TJX4PYKFGGMGD4AV4YS2SWRFTB5NDZA"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-0.40.0/openmw-0.40.0-Linux-64Bit.tar.gz" size="22262754" extract="openmw-0.40.0-Linux-64Bit"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.39.0" released="2016-04-16" stability="stable" version="0.39.0">
+            <manifest-digest sha256new="ON6D6BKP3OHFUV2ZLCNRJZWVW6DYU53TZDWP2U4R5OIJFVPLJTJA"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-0.39.0/openmw-0.39.0-Linux-64Bit.tar.gz" size="22915949" extract="openmw-0.39.0-Linux-64Bit"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.38.0" released="2016-01-22" stability="stable" version="0.38.0">
+            <manifest-digest sha256new="SMVH2PME552NGTWCTX7T623GZZEOGL56VOLOTNS6GEZME6FT5XKA"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-0.38.0/openmw-0.38.0-Linux-64Bit.tar.gz" size="21664062" extract="openmw-0.38.0-Linux-64Bit"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.37.0" released="2015-11-30" stability="stable" version="0.37.0">
+            <manifest-digest sha256new="E2KCSOUJYERR6IFVOWJHPTSV5LDWHMJU2BVMZQUZUKW46RW4YXOA"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-0.37.0/openmw-0.37.0-Linux-64Bit.tar.gz" size="21492810" extract="openmw-0.37.0-Linux-64Bit"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.36.1" released="2015-06-05" stability="stable" version="0.36.1">
+            <manifest-digest sha256new="OPXMNQWDFZ7KPAJGMZE23EVECDSWQHH2QNSYFCUUBGNW2VISJ2RQ"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-0.36.1/openmw-0.36.1-Linux-64Bit.tar.gz" size="27010476" extract="openmw-0.36.1-Linux-64Bit"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.36.0" released="2015-05-29" stability="stable" version="0.36.0">
+            <manifest-digest sha256new="XGEKFZ5QJZY3W5HH6OKV2FTS6PHJDAOFKRE3QHEKN572ZSG65ZDQ"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-0.36.0/openmw-0.36.0-Linux-64Bit.tar.gz" size="27014303" extract="openmw-0.36.0-Linux-64Bit"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.35.1" released="2015-03-15" stability="stable" version="0.35.1">
+            <manifest-digest sha256new="T5XLIVILZ7XY3FLEOPX6UAEF4TK4MNYBHK37WEVSQ6HN47ESBWPA"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-0.35.1/openmw-0.35.1-Linux-64Bit.tar.gz" size="26804447" extract="openmw-0.35.1-Linux-64Bit"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.35.0" released="2015-02-16" stability="stable" version="0.35.0">
+            <manifest-digest sha256new="HYL6ZENZNVW4NZ6HRLFF7R6XMTT7RH3RJSWYFIWJCNGY3JVHJNRA"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-0.35.0/openmw-0.35.0-Linux-64Bit.tar.gz" size="27948652" extract="openmw-0.35.0-Linux-64Bit"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.34.0" released="2014-12-21" stability="stable" version="0.34.0">
+            <manifest-digest sha256new="ZGRDOKWAYK6VHPJDYBZLB45WBGHPHXWPMQEXI7KPK2CSIGHVPMSA"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-0.34.0/openmw-0.34.0-Linux-64Bit.tar.gz" size="27403435" extract="openmw-0.34.0-Linux-64Bit"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.33.0" released="2014-10-29" stability="stable" version="0.33.0">
+            <manifest-digest sha256new="X4PVMWU42EEXWPWALEXZDDB7WVTGR6JB5TEYDFN3JGWZGYIF6TXQ"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-0.33.0/openmw-0.33.0-Linux-64Bit.tar.gz" size="24146446" extract="openmw-0.33.0-Linux-64Bit"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.32.0" released="2014-09-17" stability="stable" version="0.32.0">
+            <manifest-digest sha256new="EIEOEHZCM7Q4WEZGDVZXY43GPR2FKTQ2GKFU2PIJNOQI4XZBJKHA"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-0.32.0/openmw-0.32.0-Linux-64Bit.tar.gz" size="23527538" extract="openmw-0.32.0-Linux-64Bit"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.31.0" released="2014-07-17" stability="stable" version="0.31.0">
+            <manifest-digest sha256new="LP2BYGLTVHYNQLXUBHRJBG3WPXMV66CYVEUHWMIVAOBV5BUMPKLA"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-0.31.0/openmw-0.31.0-Linux-64Bit.tar.gz" size="35054913" extract="openmw-0.31.0-Linux-64Bit"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.30.0" released="2014-05-28" stability="stable" version="0.30.0">
+            <manifest-digest sha256new="RT63X3J4I3NYOG2GBDQ7YNQABIEU6WEQXNQYP4MLLMVPKELE7YIA"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-0.30.0/openmw-0.30.0-Linux-64Bit.tar.gz" size="34241641" extract="openmw-0.30.0-Linux-64Bit"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.29.0" released="2014-03-12" stability="stable" version="0.29.0">
+            <manifest-digest sha256new="26FJYVMQAL5TLASW3PFLWBNQPSAUC6OG5ZCSKZIGA5MZPT3TLW6A"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-0.29.0/openmw-0.29.0-Linux-64Bit.tar.gz" size="31349591" extract="openmw-0.29.0-Linux-64Bit"/>
+        </implementation>
+    </group>
+</interface>
+<!-- Base64 Signature
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaBeDDwAKCRDgFP8eMvv3HrU1AQCF+4Ic
+byeEzf+AB0+zxckrau+izHO6UPrXJCbwI8puGwD6AvZ1YK8yLKVDoy3kOEf5CMYNk6hj1nwax52S
+kvx9uwA=
+-->
