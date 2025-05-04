@@ -3,6 +3,7 @@
 <interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://lepideble.github.io/packages/2-ship-2-harkinian.xml">
     <name>2 Ship 2 Harkinian</name>
     <summary>port of the 2000 Nintendo 64 video game The Legend of Zelda: Majora's Mask</summary>
+    <icon href="https://lepideble.github.io/packages/2-ship-2-harkinian.png" type="image/png"/>
     <group arch="Linux-x86_64">
         <command name="run" path="2ship.appimage"/>
         <implementation id="Linux-x86_64-1.1.2" released="2024-12-20" version="1.1.2">
@@ -59,7 +60,7 @@
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaBaBhwAKCRDgFP8eMvv3HoYyAQDuDYw2
-PhMqfLX1CDDuJTUlOO+vcYoJ44Y4Y8gFzYd9qgD+Ke4Mwsg24owlt3WjyDpRAz3yN2SpGl8Wfe14
-KL3qvwc=
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaBcckAAKCRDgFP8eMvv3HjKHAQD7Q0GE
+8WR8ni4iopK+xXYCdrXs9quw42GsZHkyy6g1OwEAxtFW0gI+bsMdNRmtJ+xrUGPeK5zclvEUGine
+g3zKxQo=
 -->
