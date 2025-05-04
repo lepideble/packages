@@ -2,6 +2,7 @@
 <interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://lepideble.github.io/packages/2-ship-2-harkinian.xml">
     <name>2 Ship 2 Harkinian</name>
     <summary>port of the 2000 Nintendo 64 video game The Legend of Zelda: Majora's Mask</summary>
+    <icon href="../icons/2-ship-2-harkinian.png" type="image/png"/>
     <group arch="Linux-x86_64">
         <command name="run" path="2ship.appimage"/>
         <implementation id="Linux-x86_64-1.1.2" released="2024-12-20" version="1.1.2">

@@ -2,6 +2,8 @@
 <interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://lepideble.github.io/packages/ship-of-harkinian.xml">
     <name>Ship of Harkinian</name>
     <summary>port of the 1998 Nintendo 64 video game The Legend of Zelda: Ocarina of Time</summary>
+    <homepage>https://www.shipofharkinian.com/</homepage>
+    <icon href="../icons/ship-of-harkinian.png" type="image/png"/>
     <group arch="Linux-x86_64">
         <command name="run" path="soh.appimage"/>
         <implementation id="Linux-x86_64-9.0.0" released="2025-04-02" version="9.0.0">
