@@ -68,17 +68,21 @@ class App(abc.ABC):
         if len(versions_to_add) == 0:
             return
 
-        interface = Interface(
-            Name(self.name),
-            Summary(self.summary),
-            FeedFor(interface = f'{config.base_url}{feed_name}.xml'),
-        )
+        for version in versions_to_add:
+            interface = Interface(
+                Name(self.name),
+                Summary(self.summary),
+                FeedFor(interface = f'{config.base_url}{feed_name}.xml'),
+            )
 
-        for arch in self.archs:
-            group = Group(*self.commands(arch), arch=arch)
+            for arch in self.archs:
+                group = Group(*self.commands(arch), arch=arch)
 
-            for version in versions_to_add:
-                archive_url, extract = self.archive(arch, version)
+                archive = self.archive(arch, version)
+                if archive is None:
+                    continue
+
+                archive_url, extract = archive
 
                 with Download(archive_url) as archive:
                     archive_size = _get_size(archive)
@@ -89,20 +93,22 @@ class App(abc.ABC):
                     Archive(href=archive_url, size=archive_size, extract=extract),
                     id=f"{arch}-{version['version']}",
                     released=version['released'],
+                    stability=version.get('stability'),
                     version=version['version'],
                 ))
 
             interface.append(group)
 
-        with tempfile.NamedTemporaryFile(suffix='.xml') as file:
-            file.write(b'<?xml version="1.0"?>\n')
-            file.write(interface.to_xml(indent='    ', encoding='utf-8'))
-            file.flush()
+            # Add version one by one to the feed to prevent having to restart from the start on error
+            with tempfile.NamedTemporaryFile(suffix='.xml') as file:
+                file.write(b'<?xml version="1.0"?>\n')
+                file.write(interface.to_xml(indent='    ', encoding='utf-8'))
+                file.flush()
 
-            subprocess.check_output([
-                '0install',
-                'run',
-                'https://apps.0install.net/0install/0publish.xml',
-                f'--add-from={file.name}',
-                feed_file,
-            ])
+                subprocess.check_output([
+                    '0install',
+                    'run',
+                    'https://apps.0install.net/0install/0publish.xml',
+                    f'--add-from={file.name}',
+                    feed_file,
+                ])

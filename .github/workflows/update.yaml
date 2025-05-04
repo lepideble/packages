@@ -32,4 +32,5 @@ jobs:
       matrix:
         app:
           - 2-ship-2-harkinian
+          - openmw
           - ship-of-harkinian

@@ -58,16 +58,19 @@ class FeedFor:
         return node
 
 class Implementation:
-    def __init__(self, *content, id, released, version):
+    def __init__(self, *content, id, released, stability: str = None, version):
         self.content = content
         self.id = id
         self.released = released
+        self.stability = stability
         self.version = version
 
     def as_node(self, document):
         node = document.createElement('implementation')
         node.setAttribute('id', self.id)
         node.setAttribute('released', self.released)
+        if self.stability is not None:
+            node.setAttribute('stability', self.stability)
         node.setAttribute('version', self.version)
 
         for element in self.content:
