@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://lepideble.github.io/packages/openmw/ncgdmw-lua-edition.xml">
+    <name>NCGDMW Lua Edition</name>
+    <summary>"Natural Grow" leveling mod where your attributes and level grow automatically as your skills increase</summary>
+    <group arch="*-*">
+        <implementation id="*-*-4.2.1" released="2025-05-07" version="4.2.1">
+            <manifest-digest sha256new="LCH2S7M2LB67PAJEXFVP6UZTB7YX5AKQT4ALY3E2MNXFO3NFP5PA"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/191997797/download" size="111606"/>
+        </implementation>
+        <implementation id="*-*-4.2" released="2025-05-05" version="4.2">
+            <manifest-digest sha256new="ODMW6DV4E5ZCN3THAJ2BT3DVMFLVFEPJKLEVFBFOUVBJUYMQCQBQ"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/191307996/download" size="111548"/>
+        </implementation>
+        <implementation id="*-*-4.1.9" released="2025-04-27" version="4.1.9">
+            <manifest-digest sha256new="I3L6SJ6G3A4P4N2GNQ2UDWGEJW5MSAPGCI3Y7MUWRNNDLGT3YVOA"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/189645708/download" size="111086"/>
+        </implementation>
+        <implementation id="*-*-4.1.8" released="2025-04-18" version="4.1.8">
+            <manifest-digest sha256new="2HBOD7QR7I3FP7MBJP756TVCYMMFR66ZP2FLZG67B2ETDNO2ZMYQ"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/187940776/download" size="111060"/>
+        </implementation>
+        <implementation id="*-*-4.1.7" released="2025-04-16" version="4.1.7">
+            <manifest-digest sha256new="T25LLANCALDWXOB6AAJU6B7FQKOR7P34SFJS22UI6QNLIE66QNLQ"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/187629744/download" size="111030"/>
+        </implementation>
+        <implementation id="*-*-4.1.6" released="2025-04-07" version="4.1.6">
+            <manifest-digest sha256new="DP5Z3V3CV34ZYXW42K62XGNNVOHCUMYFD2KVJLAJQLZZQA6QVEHA"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/185642299/download" size="110940"/>
+        </implementation>
+        <implementation id="*-*-4.1.5" released="2025-04-01" version="4.1.5">
+            <manifest-digest sha256new="QUGLHVQ7BHUHSNYM5GMIYVU4O2WKDMUFT22F3EJKLXSQKN2GTIJA"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/184256569/download" size="109277"/>
+        </implementation>
+        <implementation id="*-*-4.1.4" released="2025-03-31" version="4.1.4">
+            <manifest-digest sha256new="TCWAAPHLIIGU326SEEPC344FWKVGIMRLHUD4UBXSE4VTQPFGG7KA"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/184065372/download" size="109272"/>
+        </implementation>
+        <implementation id="*-*-4.1.3" released="2025-03-29" version="4.1.3">
+            <manifest-digest sha256new="TERMMJLSUI6KMM52S2667ZWQUZ74U6DULYZGGWWQZKERC7ESNWTA"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/183836220/download" size="120572"/>
+        </implementation>
+        <implementation id="*-*-4.1.2" released="2025-03-28" version="4.1.2">
+            <manifest-digest sha256new="Y2PPIUDLAFW4KXNQKZAHVTBMFVG37ZF4GADZ3TBCDMEUPUB35MYA"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/183733106/download" size="120504"/>
+        </implementation>
+        <implementation id="*-*-4.1.1" released="2025-03-27" version="4.1.1">
+            <manifest-digest sha256new="75HFK336V7TCSVRDRFQQDWEEKXUFQJPMDBVI6K5XTHTIGC7OXIFA"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/183350839/download" size="120097"/>
+        </implementation>
+        <implementation id="*-*-4.1" released="2025-03-26" version="4.1">
+            <manifest-digest sha256new="XKRFXCL4XJ527ZAKYYAEVOEHARCHD62CI6UVH4T56TPDJNFTXTYA"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/183145503/download" size="119722"/>
+        </implementation>
+        <implementation id="*-*-4.0" released="2025-03-25" version="4.0">
+            <manifest-digest sha256new="YH26XJCRDMRXA4SASKS3MLIPRDLAZZKEBH6JCYVIPIFZIQFDBRNA"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/182893932/download" size="118999"/>
+        </implementation>
+        <implementation id="*-*-3.6.4" released="2025-03-20" version="3.6.4">
+            <manifest-digest sha256new="S6IPMPE6JYNJ6E37XG7RQ42A2VAEYCIKRTF6XM56XD3M37P3MIPA"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/181885029/download" size="122496"/>
+        </implementation>
+        <implementation id="*-*-3.6.3" released="2025-03-08" version="3.6.3">
+            <manifest-digest sha256new="6XZ3GM4LKWU4ZEPVQ6FYDQF6A2F2R2ECT2PORUIZRA2DI4KUQCYQ"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/179580613/download" size="118430"/>
+        </implementation>
+        <implementation id="*-*-3.6.2" released="2025-03-05" version="3.6.2">
+            <manifest-digest sha256new="6EIGND4RHYINDZNIOTRGENBPS7IV23HUXTOJXEOPBABJEWZ2CBEA"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/179059864/download" size="118402"/>
+        </implementation>
+        <implementation id="*-*-3.6.1" released="2025-03-04" version="3.6.1">
+            <manifest-digest sha256new="FOXWYSA76AQ43WEAT7I6WSTH6F4TUGQOEDKZGN46HBZIHR3EBZPQ"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/178788120/download" size="119039"/>
+        </implementation>
+        <implementation id="*-*-3.6.0" released="2025-03-03" version="3.6.0">
+            <manifest-digest sha256new="ULIRM76FSJDCJZUJAS2NEX6F3ANOXEIKWFZOISMB2S4CQYGGYFRA"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/178499170/download" size="119034"/>
+        </implementation>
+        <implementation id="*-*-3.5.5" released="2025-02-17" version="3.5.5">
+            <manifest-digest sha256new="6FDMJNPRRZLRPOS7UHDQK7FWMQZ5T2KFVJYR232D57DEZRHNFLGA"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/175769745/download" size="135915"/>
+        </implementation>
+        <implementation id="*-*-3.5.4" released="2024-12-09" version="3.5.4">
+            <manifest-digest sha256new="LZSRRVBH5RPQBSE74T7PTEQLXBRVD6HKZMV5BRL4OW5JMWYASBFQ"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/164575850/download" size="134622"/>
+        </implementation>
+    </group>
+</interface>

@@ -1,10 +1,17 @@
-import abc, inspect, io, subprocess, tempfile
+import abc, inspect, io, os, subprocess, tempfile
 from os import path
+from urllib import request
 from xml.dom import minidom
 
 import config
 from .builder import Download, WriteFile
 from .feed import Archive, FeedFor, ManifestDigest, Group, Implementation, Interface, Name, Summary
+
+EXT_MAPPING = {
+    'application/x-compressed-tar': '.tar.gz',
+    'application/x-tar': '.tar',
+    'application/zip': 'zip',
+}
 
 def _get_size(archive):
     archive.seek(0, io.SEEK_END)
@@ -50,7 +57,7 @@ class App(abc.ABC):
     def update(self):
         versions = self.versions()
 
-        feed_name = path.basename(inspect.getfile(self.__class__)).removesuffix('.py')
+        feed_name = path.relpath(inspect.getfile(self.__class__), path.join(os.curdir, 'apps')).removesuffix('.py')
         feed_file = path.join('feeds', f'{feed_name}.xml')
 
         existing_versions = set()
@@ -84,7 +91,12 @@ class App(abc.ABC):
 
                 archive_url, extract = archive
 
-                with Download(archive_url) as archive:
+                response = request.urlopen(archive_url)
+                content_type = response.headers.get_content_type()
+
+                with tempfile.NamedTemporaryFile(suffix=f'.{EXT_MAPPING[content_type]}') as archive:
+                    archive.write(response.read())
+
                     archive_size = _get_size(archive)
                     archive_digest = _get_digest(archive, extract)
 

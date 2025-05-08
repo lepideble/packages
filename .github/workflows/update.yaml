@@ -33,4 +33,5 @@ jobs:
         app:
           - 2-ship-2-harkinian
           - openmw
+          - openmw/ncgdmw-lua-edition
           - ship-of-harkinian
