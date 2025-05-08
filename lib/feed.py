@@ -21,10 +21,11 @@ class Interface:
         return document.documentElement.toprettyxml(indent=indent, encoding=encoding)
 
 class Archive:
-    def __init__(self, *, href: str, size: int, extract: str = None):
+    def __init__(self, *, href: str, size: int, extract: str = None, type: str = None):
         self.href = href
         self.size = size
         self.extract = extract
+        self.type = type
 
     def as_node(self, document):
         node = document.createElement('archive')
@@ -32,6 +33,8 @@ class Archive:
         node.setAttribute('size', str(self.size))
         if self.extract is not None:
             node.setAttribute('extract', self.extract)
+        if self.type is not None:
+            node.setAttribute('type', self.type)
 
         return node
 

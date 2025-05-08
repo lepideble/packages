@@ -4,7 +4,7 @@ from urllib import request
 from xml.dom import minidom
 
 import config
-from .builder import Download, WriteFile
+from .builder import WriteFile
 from .feed import Archive, FeedFor, ManifestDigest, Group, Implementation, Interface, Name, Summary
 
 EXT_MAPPING = {
@@ -102,7 +102,7 @@ class App(abc.ABC):
 
                 group.append(Implementation(
                     ManifestDigest(sha256new=archive_digest),
-                    Archive(href=archive_url, size=archive_size, extract=extract),
+                    Archive(href=archive_url, size=archive_size, extract=extract, type=content_type),
                     id=f"{arch}-{version['version']}",
                     released=version['released'],
                     stability=version.get('stability'),
