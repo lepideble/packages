@@ -19,7 +19,7 @@ class NCGDMWLuaEdition(app.App):
 
             package = next((package for package in packages if package['version'] == version))
     
-            package_files = json.loads(request.urlopen(request.Request(f'https://gitlab.com/api/v4/projects/{project}/packages/{package['id']}/package_files')).read())
+            package_files = json.loads(request.urlopen(request.Request(f"https://gitlab.com/api/v4/projects/{project}/packages/{package['id']}/package_files")).read())
             package_file = next((package_file for package_file in package_files if package_file['file_name'] == 'ncgdmw-lua.zip'))
 
             if released is None:
@@ -28,7 +28,7 @@ class NCGDMWLuaEdition(app.App):
             yield {
                 'version': version,
                 'released': released,
-                'file': f'https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/{package_file['id']}/download',
+                'file': f"https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/{package_file['id']}/download",
             }
 
     @property
