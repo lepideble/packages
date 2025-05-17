@@ -84,10 +84,14 @@
             <manifest-digest sha256new="LZSRRVBH5RPQBSE74T7PTEQLXBRVD6HKZMV5BRL4OW5JMWYASBFQ"/>
             <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/164575850/download" size="134622"/>
         </implementation>
+        <implementation id="*-*-4.2.2" released="2025-05-12" version="4.2.2">
+            <manifest-digest sha256new="G4SPKLVYT4RRFA77IJU7FMPIRC6DSLBK3P5P2NSNBVXGRFNZ2PCQ"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/193015399/download" size="111646" type="application/zip"/>
+        </implementation>
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaB3i+QAKCRDgFP8eMvv3Hj9oAP91CwO1
-dh/ieuBEiU2GvCfzwfUixxuIK8NOQ+S3HctUGgEAmCp+LA3gbGIMmjuu4JTltHOVcN74zaLUZQNK
-Jiz2EAE=
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaChrXAAKCRDgFP8eMvv3HlyGAP9Zhkah
+N1m58Ts9zzcf5QuBZBoxCGS1x37SvrV+6DN0EgD+Oc815a9ukBZZikoIzBAxMNJ7bnX6JwLBSDZ+
+V83A6gQ=
 -->
