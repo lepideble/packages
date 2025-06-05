@@ -29,6 +29,7 @@ jobs:
           branch: update/${{ matrix.app }}
           title: Update ${{ matrix.app }}
     strategy:
+      fail-fast: false
       matrix:
         app:
           - 2-ship-2-harkinian
