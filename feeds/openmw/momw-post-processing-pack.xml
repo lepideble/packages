@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://lepideble.github.io/packages/openmw/momw-post-processing-pack.xml">
+    <name>MOMW Post Processing Pack</name>
+    <summary>A collection of post-processing shaders for OpenMW</summary>
+    <group arch="*-*">
+        <implementation id="*-*-1.13" released="2025-05-07" version="1.13">
+            <manifest-digest sha256new="4WAXRVTVJ34HOQRF7KNZ3VJASVVRCZ3QJFHPVX7EU2R6J2SGTXMQ"/>
+            <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/192212866/download" size="59823173" type="application/zip"/>
+        </implementation>
+        <implementation id="*-*-1.12.1" released="2025-05-03" version="1.12.1">
+            <manifest-digest sha256new="ACKLSMC3DHV7WX3P2N275KJ7FHBSPHAINU3XN4UTTIG5SC7VRSVA"/>
+            <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/190824963/download" size="59825260" type="application/zip"/>
+        </implementation>
+        <implementation id="*-*-1.12" released="2025-04-23" version="1.12">
+            <manifest-digest sha256new="IW6K5I4WPL2VG5H3R22MA266QKNCCC2LT7JBCW6GESDFGYGFKS7A"/>
+            <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/188888472/download" size="59825201" type="application/zip"/>
+        </implementation>
+        <implementation id="*-*-1.11" released="2025-02-16" version="1.11">
+            <manifest-digest sha256new="MJJNBLX4UHP4LWJ754H7ZFQTISOPP4X534AGLUTZVTZE6V53JDCA"/>
+            <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/175534545/download" size="52292388" type="application/zip"/>
+        </implementation>
+        <implementation id="*-*-1.10" released="2025-01-16" version="1.10">
+            <manifest-digest sha256new="F26CAEQEJYFJVQZBII7C4MQIYNU3AHSTBICHZ435IXWZ5H6T3ASQ"/>
+            <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/169755919/download" size="51585634" type="application/zip"/>
+        </implementation>
+        <implementation id="*-*-1.9" released="2024-12-16" version="1.9">
+            <manifest-digest sha256new="I2VDTSY6MWW5LMSSB24S43HOJL3FLO2UJCUU74TYC2P3ESDPQD2A"/>
+            <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/165801276/download" size="43630647" type="application/zip"/>
+        </implementation>
+        <implementation id="*-*-1.8" released="2024-09-14" version="1.8">
+            <manifest-digest sha256new="PDC37YNSNXDUOJINLMHDOCWYLUUUYRWP2R423DKIULGJKP4KNGHA"/>
+            <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/148054206/download" size="43630535" type="application/zip"/>
+        </implementation>
+        <implementation id="*-*-1.7" released="2024-02-18" version="1.7">
+            <manifest-digest sha256new="KHP4ARXG6OLZ5VNJ3D4VGNEHSOUA4DU44YBLB4XA7XO55X2GXGFQ"/>
+            <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/113860031/download" size="43624752" type="application/zip"/>
+        </implementation>
+        <implementation id="*-*-1.6" released="2024-01-24" version="1.6">
+            <manifest-digest sha256new="CSK7YMOOUOVNBLOS7NO2WQMBSUZWTKBZHC4TAWU5JJYVWZ5HL2LA"/>
+            <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/110384520/download" size="43624594" type="application/zip"/>
+        </implementation>
+        <implementation id="*-*-1.5" released="2023-12-16" version="1.5">
+            <manifest-digest sha256new="DDR646SZ2SQAAPHSDYBQ4ORE4ARZ2SGU27TUZCKAIW3ZEMY5SDMQ"/>
+            <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/106177770/download" size="43624559" type="application/zip"/>
+        </implementation>
+        <implementation id="*-*-1.4" released="2023-11-14" version="1.4">
+            <manifest-digest sha256new="FIXYFEZVKQAS3IQHM7F46TSPNQ6QJM4VACMB6GWQMGO5UJAO6OCA"/>
+            <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/101753663/download" size="43624597" type="application/zip"/>
+        </implementation>
+        <implementation id="*-*-1.3" released="2023-11-09" version="1.3">
+            <manifest-digest sha256new="M4O7TCWD7VUGKCYFWGNWM6GE3PXLA2YBUJ424S5RD5KE6C74VGPA"/>
+            <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/101198731/download" size="43624634" type="application/zip"/>
+        </implementation>
+        <implementation id="*-*-1.2" released="2023-11-07" version="1.2">
+            <manifest-digest sha256new="TVMXHJJXOJCXXAFONDJPR65J46TWY5OY3RM6TGCSHFJKNIO74YFA"/>
+            <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/100747401/download" size="43624491" type="application/zip"/>
+        </implementation>
+        <implementation id="*-*-1.1" released="2023-10-21" version="1.1">
+            <manifest-digest sha256new="GD3ZOXL4OCY6ZO6XWBKIONXUBJI54QUFTREOOSCJH2IDM5TMPBWQ"/>
+            <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/98642807/download" size="43623611" type="application/zip"/>
+        </implementation>
+        <implementation id="*-*-1.0" released="2023-08-29" version="1.0">
+            <manifest-digest sha256new="TH5ZQAF56Q4AR2DKVOUPLXK42BSWIGB5SSFGW5ARQ4ZQQABNN4FQ"/>
+            <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/90656284/download" size="43623476" type="application/zip"/>
+        </implementation>
+    </group>
+</interface>
