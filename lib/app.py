@@ -92,7 +92,11 @@ class App(abc.ABC):
                 archive_url, extract = archive
 
                 response = request.urlopen(archive_url)
-                content_type = response.headers.get_content_type()
+
+                if archive_url.endswith('.tar.gz'):
+                    content_type = 'application/x-compressed-tar'
+                else:
+                    content_type = response.headers.get_content_type()
 
                 with tempfile.NamedTemporaryFile(suffix=f'.{EXT_MAPPING[content_type]}') as archive:
                     archive.write(response.read())

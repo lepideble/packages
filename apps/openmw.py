@@ -34,7 +34,7 @@ class OpenMW(app.App):
             'released': release['published_at'][0:10],
             'stability': 'testing' if release['prerelease'] else 'stable',
             'files': {
-                'Linux-x86_64': next((asset['browser_download_url'] for asset in release['assets'] if '-Linux-' in asset['name']), None),
+                'Linux-x86_64': next((asset['browser_download_url'] for asset in release['assets'] if '-Linux-' in asset['name'] and '-debug' not in asset['name']), None),
             },
         } for release in releases]
 
