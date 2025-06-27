@@ -1,5 +1,4 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
 <interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://lepideble.github.io/packages/openmw.xml">
     <name>OpenMW</name>
     <summary>open-source open-world RPG game engine that supports playing Morrowind</summary>
@@ -120,6 +119,14 @@
         <implementation id="Linux-x86_64-0.29.0" released="2014-03-12" stability="stable" version="0.29.0">
             <manifest-digest sha256new="26FJYVMQAL5TLASW3PFLWBNQPSAUC6OG5ZCSKZIGA5MZPT3TLW6A"/>
             <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-0.29.0/openmw-0.29.0-Linux-64Bit.tar.gz" size="31349591" extract="openmw-0.29.0-Linux-64Bit"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.49.0-rc8" released="2025-06-07" stability="testing" version="0.49.0-rc8">
+            <manifest-digest sha256new="II6QD35MIM52MV2UJWCYOGEMTILPGOLV7ITLSL3YW6NFSQGK332A"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-49-rc8/openmw-0.49.0-Linux-64BitRC8.tar.gz" size="81336817" extract="openmw-0.49.0-Linux-64BitRC8" type="application/x-compressed-tar"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.49.0-rc9" released="2025-06-23" stability="testing" version="0.49.0-rc9">
+            <manifest-digest sha256new="723QQW2N3TSBLLQB6KB6UZXLMDVGAW3UYWNQ3O4KPCTHXNEBXE2Q"/>
+            <archive href="https://github.com/OpenMW/openmw/releases/download/openmw-49-rc9/openmw-0.49.0-Linux-64BitRC9.tar.gz" size="82554311" extract="openmw-0.49.0-Linux-64BitRC9" type="application/x-compressed-tar"/>
         </implementation>
     </group>
 </interface>
