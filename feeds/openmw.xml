@@ -1,4 +1,5 @@
 <?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
 <interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://lepideble.github.io/packages/openmw.xml">
     <name>OpenMW</name>
     <summary>open-source open-world RPG game engine that supports playing Morrowind</summary>
