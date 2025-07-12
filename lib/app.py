@@ -128,3 +128,11 @@ class App(abc.ABC):
                     f'--add-from={file.name}',
                     feed_file,
                 ])
+
+                # Remove xml stylesheet added by 0publish
+                subprocess.check_output([
+                    'sed',
+                    '--in-place',
+                    "/<?xml-stylesheet type='text\\/xsl' href='interface.xsl'?>/d",
+                    feed_file,
+                ])
