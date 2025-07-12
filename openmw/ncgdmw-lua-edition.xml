@@ -96,10 +96,18 @@
             <manifest-digest sha256new="R2DW4IE6CEO3V57STF5CBFTGTH2CE442Z4WVBVTGFSDTAGCSA5KQ"/>
             <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/202760884/download" size="123629" type="application/zip"/>
         </implementation>
+        <implementation id="*-*-4.3.2" released="2025-07-07" version="4.3.2">
+            <manifest-digest sha256new="OFSWZEU44KOJNNIVZXVZTPUX3EPW2C5C4HNBHGQS4YF4BF4RTYKQ"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/207836929/download" size="123735" type="application/zip"/>
+        </implementation>
+        <implementation id="*-*-4.3.3" released="2025-07-07" version="4.3.3">
+            <manifest-digest sha256new="B52CDXHRAG63TPMZPUE4AL6KQGOQE67SA3K3TVFZRJJGRVCHHZIA"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/207881582/download" size="123766" type="application/zip"/>
+        </implementation>
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaFUnugAKCRDgFP8eMvv3Hio1AP9l3oS9
-WLkwsTpbqmHGNW7XvTxzLcAbw3VTZIPJoxHGWgEA+BZbdJ+KisRuLRxEl3rzO6qel8gfU1rwqhak
-Vao57gc=
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaHJgrgAKCRDgFP8eMvv3HiyHAP4zN0Yk
+rF4M/diDBstp2UwRstovw2b95EuuEZR9lgh/AwEA9+C6O12PqinNBXDGbqQvUXaQJmdSloWlC1P9
+fO2Kgwk=
 -->
