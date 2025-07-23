@@ -118,7 +118,7 @@ class App(abc.ABC):
                     version=version['version'],
                 ))
 
-            interface.append(group)
+                interface.append(group)
 
             # Add version one by one to the feed to prevent having to restart from the start on error
             with tempfile.NamedTemporaryFile(suffix='.xml') as file:
