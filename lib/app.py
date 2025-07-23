@@ -93,10 +93,15 @@ class App(abc.ABC):
 
                 response = request.urlopen(archive_url)
 
-                if archive_url.endswith('.tar.gz'):
-                    content_type = 'application/x-compressed-tar'
-                else:
-                    content_type = response.headers.get_content_type()
+                content_type = response.headers.get_content_type()
+
+                if content_type == 'application/octet-stream':
+                    # Unspecified content type, trying to get type from archive URL
+                    for key, value in EXT_MAPPING.items():
+                        if archive_url.endswith(f'.{value}'):
+                            content_type = key
+
+                            break
 
                 with tempfile.NamedTemporaryFile(suffix=f'.{EXT_MAPPING[content_type]}') as archive:
                     archive.write(response.read())
