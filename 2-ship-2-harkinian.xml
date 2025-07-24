@@ -30,6 +30,10 @@
             <manifest-digest sha256new="7PBMAM7TIKXKEMZOVK5TESPHW53KCUE2AEMZAXAWASURQFIFZ6IA"/>
             <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/1.0.0/2Ship-Rika-Alfa-Linux.zip" size="9736781"/>
         </implementation>
+        <implementation id="Linux-x86_64-2.0.0" released="2025-07-22" version="2.0.0">
+            <manifest-digest sha256new="HCN4V2MEQG2URVAW6YMQX4TJJBFFAHR2LT4IVMYJW3HEZ4T4VYPQ"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/2.0.0/2Ship-Rena-Alfa-Linux.zip" size="17585356" type="application/zip"/>
+        </implementation>
     </group>
     <group arch="Windows-x86_64">
         <command name="run" path="2ship.exe"/>
@@ -57,10 +61,14 @@
             <manifest-digest sha256new="ZJESVCEQSHLELGKMIFF757S2WT5SY7OASOYE6DOXMLZMUGLPGZEA"/>
             <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/1.0.0/2Ship-Rika-Alfa-Win64.zip" size="25324343"/>
         </implementation>
+        <implementation id="Windows-x86_64-2.0.0" released="2025-07-22" version="2.0.0">
+            <manifest-digest sha256new="AWBNEY3X64IEPQXY7UH2VJS5ZO3WWTMZS34YOGIBOT5QQAQY3RKQ"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/2.0.0/2Ship-Rena-Alfa-Win64.zip" size="50062206" type="application/zip"/>
+        </implementation>
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaBcckAAKCRDgFP8eMvv3HjKHAQD7Q0GE
-8WR8ni4iopK+xXYCdrXs9quw42GsZHkyy6g1OwEAxtFW0gI+bsMdNRmtJ+xrUGPeK5zclvEUGine
-g3zKxQo=
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaIH3HQAKCRDgFP8eMvv3HjF5AP9N2SbH
+FavEw74HoKThkFRPjlyAA2YY3K1+5dC40lIvGQEA9EdZ2L5NuoqkNrD8Da5UupW8aIclqRbdG5IR
+9d4pBAg=
 -->
