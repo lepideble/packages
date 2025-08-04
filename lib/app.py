@@ -8,8 +8,8 @@ from .builder import WriteFile
 from .feed import Archive, FeedFor, ManifestDigest, Group, Implementation, Interface, Name, Summary
 
 EXT_MAPPING = {
-    'application/x-compressed-tar': '.tar.gz',
-    'application/x-tar': '.tar',
+    'application/x-compressed-tar': 'tar.gz',
+    'application/x-tar': 'tar',
     'application/zip': 'zip',
 }
 

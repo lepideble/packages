@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://lepideble.github.io/packages/archipelago.xml">
+    <name>Archipelago</name>
+    <summary>Archipelago Multi-Game Randomizer and Server</summary>
+    <group arch="Linux-x86_64">
+        <command name="run" path="ArchipelagoLauncher"/>
+        <command name="adventure-client" path="ArchipelagoAdventureClient"/>
+        <command name="ahit-client" path="ArchipelagoAHITClient"/>
+        <command name="biz-hawk-client" path="ArchipelagoBizHawkClient"/>
+        <command name="checks-finder-client" path="ArchipelagoChecksFinderClient"/>
+        <command name="kh1-client" path="ArchipelagoKH1Client"/>
+        <command name="kh2-client" path="ArchipelagoKH2Client"/>
+        <command name="links-awakening-client" path="ArchipelagoLinksAwakeningClient"/>
+        <command name="lttp-adjuster" path="ArchipelagoLttPAdjuster"/>
+        <command name="mmbn3-client" path="ArchipelagoMMBN3Client"/>
+        <command name="oot-adjuster" path="ArchipelagoOoTAdjuster"/>
+        <command name="oot-client" path="ArchipelagoOoTClient"/>
+        <command name="server" path="ArchipelagoServer"/>
+        <command name="sni-client" path="ArchipelagoSNIClient"/>
+        <command name="starcraft2-Client" path="ArchipelagoStarcraft2Client"/>
+        <command name="text-client" path="ArchipelagoTextClient"/>
+        <command name="undertale-client" path="ArchipelagoUndertaleClient"/>
+        <command name="zelda1-client" path="ArchipelagoZelda1Client"/>
+        <command name="zillion-client" path="ArchipelagoZillionClient"/>
+        <implementation id="Linux-x86_64-0.3.0" released="2022-04-01" stability="stable" version="0.3.0">
+            <manifest-digest sha256new="3PLNNFXG4EPWCKICTQ5FULWZTNPBIADTUKFXT3AKQJYFOWHKLNHA"/>
+            <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.3.0/Archipelago_0.3.0_linux-x86_64.tar.gz" size="92156215" extract="Archipelago" type="application/x-compressed-tar"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.3.1" released="2022-04-04" stability="stable" version="0.3.1">
+            <manifest-digest sha256new="JCUFKX7ZAKRLCYWNZ7ZJB3S6GT72VDVANONUR77UCQAGTG5SUMFQ"/>
+            <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.3.1/Archipelago_0.3.1_linux-x86_64.tar.gz" size="92160211" extract="Archipelago" type="application/x-compressed-tar"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.3.4" released="2022-08-05" stability="stable" version="0.3.4">
+            <manifest-digest sha256new="Q22BTBTUYCJSTY7DYXMYPUATUIVRJLLDVNSDRT46IVP6ENOO6NUQ"/>
+            <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.3.4/Archipelago_0.3.4_linux-x86_64.tar.gz" size="94767471" extract="Archipelago" type="application/x-compressed-tar"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.3.5" released="2022-09-14" stability="stable" version="0.3.5">
+            <manifest-digest sha256new="K7V2NVHGVOI7NMXGBGOANO4IOVQE5ONY4T5FDJWVA3SO6YPDRWCA"/>
+            <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.3.5/Archipelago_0.3.5_linux-x86_64.tar.gz" size="95479262" extract="Archipelago" type="application/x-compressed-tar"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.3.7" released="2022-12-21" stability="stable" version="0.3.7">
+            <manifest-digest sha256new="WBIFM33ODCIAGSQYMLXETCEC5BQAF6GGITQK6MI7VA4ZLC25RMAA"/>
+            <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.3.7/Archipelago_0.3.7_linux-x86_64.tar.gz" size="95376678" extract="Archipelago" type="application/x-compressed-tar"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.3.8" released="2023-01-30" stability="stable" version="0.3.8">
+            <manifest-digest sha256new="5IBVE46HEJMFVG6U5RFDHN4J6SD7ICB5QJ6CMON4324IOMKSJWXA"/>
+            <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.3.8/Archipelago_0.3.8_linux-x86_64.tar.gz" size="95448209" extract="Archipelago" type="application/x-compressed-tar"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.4.0" released="2023-04-01" stability="stable" version="0.4.0">
+            <manifest-digest sha256new="NKC4UCLRGAGAPUEPD6PGVMII5F4TAXQ6JUHA66WRJCMU3LAQOP2A"/>
+            <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.4.0/Archipelago_0.4.0_linux-x86_64.tar.gz" size="107238327" extract="Archipelago" type="application/x-compressed-tar"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.4.1" released="2023-05-19" stability="stable" version="0.4.1">
+            <manifest-digest sha256new="7CM4H3KN2D5ILUJYLT5B3PNCGPYVFXXA626CIG5DB6IBIMNTD3CA"/>
+            <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.4.1/Archipelago_0.4.1_linux-x86_64.tar.gz" size="107513110" extract="Archipelago" type="application/x-compressed-tar"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.4.2" released="2023-09-01" stability="stable" version="0.4.2">
+            <manifest-digest sha256new="CYWFQWVFI7D533DAG7TTF7MGVS2SZ2W3HRTEGKNZVFN5ORDJXSIQ"/>
+            <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.4.2/Archipelago_0.4.2_linux-x86_64.tar.gz" size="121410653" extract="Archipelago" type="application/x-compressed-tar"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.4.3" released="2023-09-26" stability="stable" version="0.4.3">
+            <manifest-digest sha256new="PHNOE6UC62GZH4W2H5B2DM6HWIHLI6LW72WENAPNZVEOZVN2E5KA"/>
+            <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.4.3/Archipelago_0.4.3_linux-x86_64.tar.gz" size="122582394" extract="Archipelago" type="application/x-compressed-tar"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.4.4" released="2024-01-03" stability="stable" version="0.4.4">
+            <manifest-digest sha256new="V5SSWNCCMDZX4QZEIGPBAJ4R5R43CQMCKUNTDETC56KCLAFOKASQ"/>
+            <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.4.4/Archipelago_0.4.4_linux-x86_64.tar.gz" size="125084675" extract="Archipelago" type="application/x-compressed-tar"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.4.5" released="2024-04-01" stability="stable" version="0.4.5">
+            <manifest-digest sha256new="TLMFCRWI3FKZ3WOUHXE3RNXF2M3KMX3633CUVMCDYX4GXDPB2ULA"/>
+            <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.4.5/Archipelago_0.4.5_linux-x86_64.tar.gz" size="125652488" extract="Archipelago" type="application/x-compressed-tar"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.4.6" released="2024-04-22" stability="stable" version="0.4.6">
+            <manifest-digest sha256new="GFIGI5SOP2WSGETRVFFURIXXMHAECL5KODLSMTMBX2GU7LGIB2VA"/>
+            <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.4.6/Archipelago_0.4.6_linux-x86_64.tar.gz" size="125645294" extract="Archipelago" type="application/x-compressed-tar"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.5.0" released="2024-07-01" stability="stable" version="0.5.0">
+            <manifest-digest sha256new="7MNRCCJ4RWH3FLJSI6VJ77LLZYUSLGFMBY34DTHO4DB5GEDCMJ2Q"/>
+            <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.5.0/Archipelago_0.5.0_linux-x86_64.tar.gz" size="126336973" extract="Archipelago" type="application/x-compressed-tar"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.5.1" released="2024-11-26" stability="stable" version="0.5.1">
+            <manifest-digest sha256new="VO45EUC26BDTOU4CFY4QIJRGZE3N34ILVMU3GREOUU2RQA5OHBNQ"/>
+            <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.5.1/Archipelago_0.5.1.Hotfix1_linux-x86_64.tar.gz" size="127513693" extract="Archipelago" type="application/x-compressed-tar"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.6.0" released="2025-04-01" stability="stable" version="0.6.0">
+            <manifest-digest sha256new="ZGVW7ZK3ARFVGWY6VFGKM7AIDB2WCNKELCTVI57PDHVQPMQFYNLA"/>
+            <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.6.0/Archipelago_0.6.0_linux-x86_64.tar.gz" size="138199803" extract="Archipelago" type="application/x-compressed-tar"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.6.1" released="2025-04-04" stability="stable" version="0.6.1">
+            <manifest-digest sha256new="UXXSNU3RCZ3YEFNI5UVPT3FECCS3SAGU66JXRUTIKTYFCEHS3J7A"/>
+            <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.6.1/Archipelago_0.6.1_linux-x86_64.tar.gz" size="124669915" extract="Archipelago" type="application/x-compressed-tar"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.6.2-rc1" released="2025-05-05" stability="testing" version="0.6.2-rc1">
+            <manifest-digest sha256new="IGGBIIBJ4KJN6IJ7265D2UWRS3LOG3ILZQ33TKK2WS3FXSFTVLVQ"/>
+            <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.6.2-rc1/Archipelago_0.6.2_linux-x86_64.tar.gz" size="125851947" extract="Archipelago" type="application/x-compressed-tar"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.6.2-rc2" released="2025-05-23" stability="testing" version="0.6.2-rc2">
+            <manifest-digest sha256new="4YWB3UCSIFGQGAQ4R7IB3BHBQIBV5C3CWDVWAQUBLJBQWTWKLAZA"/>
+            <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.6.2-rc2/Archipelago_0.6.2_linux-x86_64.tar.gz" size="123148361" extract="Archipelago" type="application/x-compressed-tar"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.6.2-rc3" released="2025-06-19" stability="testing" version="0.6.2-rc3">
+            <manifest-digest sha256new="7HIEOSNSBIC3EGY5QKCN2FB7YURDSNBKWZEE44A25AUTPIVXPEQQ"/>
+            <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.6.2-rc3/Archipelago_0.6.2_linux-x86_64.tar.gz" size="121335001" extract="Archipelago" type="application/x-compressed-tar"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.6.2" released="2025-07-13" stability="stable" version="0.6.2">
+            <manifest-digest sha256new="EZFCLS4OMYAWPHQMTVJUTUGNSKHX5K2UJQLSADKYGO2B7ID2X52A"/>
+            <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.6.2/Archipelago_0.6.2_linux-x86_64.tar.gz" size="121317858" extract="Archipelago" type="application/x-compressed-tar"/>
+        </implementation>
+        <implementation id="Linux-x86_64-0.6.3-rc1" released="2025-08-02" stability="testing" version="0.6.3-rc1">
+            <manifest-digest sha256new="67K7OPV7YQHOC2QAU5AKKHAMHRTNIIT34A3MRT4OIHMHRPAPDJMA"/>
+            <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.6.3-rc1/Archipelago_0.6.3_linux-x86_64.tar.gz" size="121189030" extract="Archipelago" type="application/x-compressed-tar"/>
+        </implementation>
+    </group>
+</interface>

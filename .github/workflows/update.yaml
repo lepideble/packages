@@ -33,6 +33,7 @@ jobs:
       matrix:
         app:
           - 2-ship-2-harkinian
+          - archipelago
           - openmw
           - openmw/momw-post-processing-pack
           - openmw/ncgdmw-lua-edition
