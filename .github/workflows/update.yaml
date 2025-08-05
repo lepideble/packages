@@ -34,6 +34,7 @@ jobs:
         app:
           - 2-ship-2-harkinian
           - archipelago
+          - archipelago-retro-arch-client
           - openmw
           - openmw/momw-post-processing-pack
           - openmw/ncgdmw-lua-edition
