@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet href="resources/feed.xsl" type="text/xsl"?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://lepideble.github.io/packages/archipelago-retro-arch-client.xml">
+    <name>Archipelago RetroArch client</name>
+    <summary>client that allows people to play Ocarina of Time on Archipelago using RetroArch</summary>
+    <needs-terminal />
+    <group arch="Linux-x86_64">
+        <command name="run" path="Archipelago.RetroArchClient"/>
+        <implementation id="Linux-x86_64-1.1.0" released="2025-02-20" stability="stable" version="1.1.0">
+            <manifest-digest sha256new="Y4SMHALAXJJ3HUTGGGN3R7YVMYHATSSZQPQBXJDTZLNWXTXOFU5Q"/>
+            <archive href="https://github.com/JoshuaEagles/Archipelago.RetroArchClient/releases/download/1.1.0/Archipelago.RetroArchClient-Linux.zip" size="33843596" type="application/zip"/>
+        </implementation>
+        <implementation id="Linux-x86_64-1.1.1" released="2025-07-18" stability="stable" version="1.1.1">
+            <manifest-digest sha256new="JTTUNJXMQ2JMZQYHTF2KTRACRUWGSX622BLLJ344HJCKJ7ZONHNA"/>
+            <archive href="https://github.com/JoshuaEagles/Archipelago.RetroArchClient/releases/download/1.1.1/Archipelago.RetroArchClient-Linux.zip" size="33845687" type="application/zip"/>
+        </implementation>
+    </group>
+    <group arch="Windows-x86_64">
+        <command name="run" path="Archipelago.RetroArchClient.exe"/>
+        <implementation id="Windows-x86_64-1.1.0" released="2025-02-20" stability="stable" version="1.1.0">
+            <manifest-digest sha256new="RDAFDJJPMQ2TJCIMJMDDLGDE3KZ2VZDGNKEITHEUN45NL556Y2KA"/>
+            <archive href="https://github.com/JoshuaEagles/Archipelago.RetroArchClient/releases/download/1.1.0/Archipelago.RetroArchClient-Windows.zip" size="34553454" type="application/zip"/>
+        </implementation>
+        <implementation id="Windows-x86_64-1.1.1" released="2025-07-18" stability="stable" version="1.1.1">
+            <manifest-digest sha256new="MWX3XWPRCIETJ7NHEGXSF5RN3WDCGUM4D7NV4XR3DRTZEDXPFGAA"/>
+            <archive href="https://github.com/JoshuaEagles/Archipelago.RetroArchClient/releases/download/1.1.1/Archipelago.RetroArchClient-Windows.zip" size="34559349" type="application/zip"/>
+        </implementation>
+    </group>
+</interface>
+<!-- Base64 Signature
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaJJ9jAAKCRDgFP8eMvv3Hoc0AQDDujg1
+opu4LXyJa319c1Hfc1njWk251E0vcUDGX5HmiQEApTVecIefzdbYHCVCYSt5QWuVNAkg3lUod45J
+/8sTbw0=
+-->
