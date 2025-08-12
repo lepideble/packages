@@ -64,10 +64,14 @@
             <manifest-digest sha256new="TH5ZQAF56Q4AR2DKVOUPLXK42BSWIGB5SSFGW5ARQ4ZQQABNN4FQ"/>
             <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/90656284/download" size="43623476" type="application/zip"/>
         </implementation>
+        <implementation id="*-*-1.14" released="2025-08-07" version="1.14">
+            <manifest-digest sha256new="WUQZQMC2GYX4DFEMJNZ2OAOHKMKPH75XQGJVFCFVCTSMXFJDFWYQ"/>
+            <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/218473185/download" size="53690588" type="application/zip"/>
+        </implementation>
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaFG5UwAKCRDgFP8eMvv3Hhm3AP0UZA/g
-HcRHxdLFpmroXDDWLjC9FCZQA+Cz7XCuT0nNfwEAqqV5YR96AeP4b+9gVtM5Vcg8DK4Bg3LB6h4O
-3WKPYgo=
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaJqJqAAKCRDgFP8eMvv3HmILAP9jC4bp
+53YaceKQlnoHphq2VyXJ6uqDrOQxXvnMiIouYQD/QQexQoYP/zgtW5O7c7dSHwJ9UJYo/IG9CPZ8
+yGPY0Ao=
 -->
