@@ -33,6 +33,7 @@ jobs:
       matrix:
         app:
           - 2-ship-2-harkinian
+          - ap-sudoku
           - archipelago
           - archipelago-retro-arch-client
           - openmw
