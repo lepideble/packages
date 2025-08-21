@@ -115,5 +115,13 @@
             <manifest-digest sha256new="2HRGE5ZKFUYJN4S5DXQVPGNEMOHSOSD75FETFOTLE3NSARRSQNXQ"/>
             <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/211930204/download" size="124263" type="application/zip"/>
         </implementation>
+        <implementation id="*-*-4.4" released="2025-08-20" version="4.4">
+            <manifest-digest sha256new="OF6SZMABKNS2WND7AZBXMCT7SCQOTGLFCNUBP2OBLV6KFG5ETPTA"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/221860500/download" size="124901" type="application/zip"/>
+        </implementation>
+        <implementation id="*-*-4.4.1" released="2025-08-20" version="4.4.1">
+            <manifest-digest sha256new="KXOWFNOIQ3UKUHUNSYLCBYGY5WNRD5JPDRP3SZOCOPZPZAGTQFRA"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/221896268/download" size="124916" type="application/zip"/>
+        </implementation>
     </group>
 </interface>
