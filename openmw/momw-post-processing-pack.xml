@@ -4,10 +4,6 @@
     <name>MOMW Post Processing Pack</name>
     <summary>A collection of post-processing shaders for OpenMW</summary>
     <group arch="*-*">
-        <implementation id="*-*-1.13" released="2025-05-07" version="1.13">
-            <manifest-digest sha256new="4WAXRVTVJ34HOQRF7KNZ3VJASVVRCZ3QJFHPVX7EU2R6J2SGTXMQ"/>
-            <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/192212866/download" size="59823173" type="application/zip"/>
-        </implementation>
         <implementation id="*-*-1.12.1" released="2025-05-03" version="1.12.1">
             <manifest-digest sha256new="ACKLSMC3DHV7WX3P2N275KJ7FHBSPHAINU3XN4UTTIG5SC7VRSVA"/>
             <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/190824963/download" size="59825260" type="application/zip"/>
@@ -64,14 +60,22 @@
             <manifest-digest sha256new="TH5ZQAF56Q4AR2DKVOUPLXK42BSWIGB5SSFGW5ARQ4ZQQABNN4FQ"/>
             <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/90656284/download" size="43623476" type="application/zip"/>
         </implementation>
+        <implementation id="*-*-1.13" released="2025-05-07" version="1.13">
+            <manifest-digest sha256new="4WAXRVTVJ34HOQRF7KNZ3VJASVVRCZ3QJFHPVX7EU2R6J2SGTXMQ"/>
+            <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/192212866/download" size="59823173" type="application/zip"/>
+        </implementation>
         <implementation id="*-*-1.14" released="2025-08-07" version="1.14">
             <manifest-digest sha256new="WUQZQMC2GYX4DFEMJNZ2OAOHKMKPH75XQGJVFCFVCTSMXFJDFWYQ"/>
             <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/218473185/download" size="53690588" type="application/zip"/>
         </implementation>
+        <implementation id="*-*-1.15" released="2025-08-23" version="1.15">
+            <manifest-digest sha256new="UDHQIKIF4VF22FEL5F54W4NEDRNUSN46QE4FKSUBKAJM67I5RPUA"/>
+            <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/222802277/download" size="53690645" type="application/zip"/>
+        </implementation>
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaJqJqAAKCRDgFP8eMvv3HmILAP9jC4bp
-53YaceKQlnoHphq2VyXJ6uqDrOQxXvnMiIouYQD/QQexQoYP/zgtW5O7c7dSHwJ9UJYo/IG9CPZ8
-yGPY0Ao=
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaLifggAKCRDgFP8eMvv3Hl9xAP9c/CqD
+yvQ+pQqkol3KKL/yLc7A+8HZszk/XYwie2/WLwEAmngp+0wAcu/6hvDKJSewl+p1gbX+3oA7d4Wu
+spKKIAI=
 -->
