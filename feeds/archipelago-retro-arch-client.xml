@@ -17,6 +17,10 @@
             <manifest-digest sha256new="N6HLEMB3OX4F4EPCJFHELTHYHTUPCMSU6AANXR6HUZ4NBVII2NDQ"/>
             <archive href="https://github.com/JoshuaEagles/Archipelago.RetroArchClient/releases/download/1.2.0/Archipelago.RetroArchClient-Linux.zip" size="33843575" type="application/zip"/>
         </implementation>
+        <implementation id="Linux-x86_64-1.2.1" released="2025-09-14" stability="stable" version="1.2.1">
+            <manifest-digest sha256new="OYLLMQVVRKCW6AQFPQLSVNZSBHFRRH4FGABQIOX266BA36337XDA"/>
+            <archive href="https://github.com/JoshuaEagles/Archipelago.RetroArchClient/releases/download/1.2.1/Archipelago.RetroArchClient-Linux.zip" size="33843836" type="application/zip"/>
+        </implementation>
     </group>
     <group arch="Windows-x86_64">
         <command name="run" path="Archipelago.RetroArchClient.exe"/>
@@ -31,6 +35,10 @@
         <implementation id="Windows-x86_64-1.2.0" released="2025-08-16" stability="stable" version="1.2.0">
             <manifest-digest sha256new="J6YPCHLVAHMIFYYYXVOPTUBWXYLOONPQBDT63HQTCL3OLSHTBSWA"/>
             <archive href="https://github.com/JoshuaEagles/Archipelago.RetroArchClient/releases/download/1.2.0/Archipelago.RetroArchClient-Windows.zip" size="34559425" type="application/zip"/>
+        </implementation>
+        <implementation id="Windows-x86_64-1.2.1" released="2025-09-14" stability="stable" version="1.2.1">
+            <manifest-digest sha256new="QAHPEUVLUYVAXA2HW73233TSC47D46QHG4CEE5D2HSJATTQFYDAA"/>
+            <archive href="https://github.com/JoshuaEagles/Archipelago.RetroArchClient/releases/download/1.2.1/Archipelago.RetroArchClient-Windows.zip" size="34566589" type="application/zip"/>
         </implementation>
     </group>
 </interface>
