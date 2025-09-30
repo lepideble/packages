@@ -155,5 +155,25 @@
             <manifest-digest sha256new="JOV6LRDMQ3CNEG5WYRV3OSVASSLDZ4VJ3GNMDQFWA6IBDR65IAIQ"/>
             <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/229502449/download" size="128270" type="application/zip"/>
         </implementation>
+        <implementation id="*-*-4.5.2" released="2025-09-21" version="4.5.2">
+            <manifest-digest sha256new="3CHUOQLPMQN67G33UTLDGECUOMIXWS34ALUG3M2DBVRZPY5UNFNQ"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/230921117/download" size="128544" type="application/zip"/>
+        </implementation>
+        <implementation id="*-*-4.5.3" released="2025-09-21" version="4.5.3">
+            <manifest-digest sha256new="ANHRGAJVFKPHHYY7WQXGWHM7I3XP7NPADPSTRC6K3J2ZJWDNSVPA"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/230936267/download" size="128561" type="application/zip"/>
+        </implementation>
+         <implementation id="*-*-4.5.4" released="2025-09-22" version="4.5.4">
+            <manifest-digest sha256new="AD7MOGDER664ZSFNP6ZKJ6EBEEN6ZD34OC73CUJEY6WNWN5ICRXQ"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/231055130/download" size="128707" type="application/zip"/>
+        </implementation>
+        <implementation id="*-*-4.5.5" released="2025-09-26" version="4.5.5">
+            <manifest-digest sha256new="4SWJQ7B7UKT7ARLW5LGQSBUFKZ2VYK7FMM3JOFMLIQC5HRRO5HEQ"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/232602907/download" size="128793" type="application/zip"/>
+        </implementation>
+        <implementation id="*-*-4.6" released="2025-09-28" version="4.6">
+            <manifest-digest sha256new="WJPVFRSUOWQAN2DDSZSPVHJQNC3HF66H3WHJCPTXJJBDYHC362TA"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/232917005/download" size="130150" type="application/zip"/>
+        </implementation>
     </group>
 </interface>
