@@ -6,10 +6,10 @@ from lib import app, feed
 def get_version_from_release(release):
     version = release['tag_name'].removeprefix('openmw-')
 
-    # Fix 0.49.0-rc* versions
-    match = re.fullmatch('49-rc([0-9]+)', version)
+    # Fix 0.*.0-rc* versions
+    match = re.fullmatch('([0-9]+)-rc([0-9]+)', version)
     if match:
-        version = f'0.49.0-rc{match.group(1)}'
+        version = f'0.{match.group(1)}.0-rc{match.group(2)}'
 
     return version
 
