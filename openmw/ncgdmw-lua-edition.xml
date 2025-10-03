@@ -176,10 +176,14 @@
             <manifest-digest sha256new="WJPVFRSUOWQAN2DDSZSPVHJQNC3HF66H3WHJCPTXJJBDYHC362TA"/>
             <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/232917005/download" size="130150" type="application/zip"/>
         </implementation>
+        <implementation id="*-*-4.6.1" released="2025-10-02" version="4.6.1">
+            <manifest-digest sha256new="L4RUSBRZXBNPV4G7XBXU3V26AFQKSEE3NJ7WDM7T3BAY63F7IP3A"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/234280609/download" size="133158" type="application/zip"/>
+        </implementation>
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaNwftwAKCRDgFP8eMvv3HsXXAP9MjzRQ
-bjuQHcyyTSN5UAMxGfLCFu1W81ywME24iPoIpAD/SzXGU75Waajgm+NM1wGe1jNqVX8/94fbTLBm
-572lbgc=
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaOAdqAAKCRDgFP8eMvv3HjRRAP92kJSS
+/cy8/MAIk0e6rBbWx4p4KPP0fmh55Soz9iIQMAD8DtQGVN9IXrHoWa5WjZqpQhTRLh2c/mNb4w0v
+JGQRKAA=
 -->
