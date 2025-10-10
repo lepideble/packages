@@ -75,5 +75,9 @@
             <manifest-digest sha256new="YUHOH4VOHRZNE2FHXPQ2ABH4LOBYR6D4KT3KIOBZCMYW4XOHHDPQ"/>
             <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/226630804/download" size="43776782" type="application/zip"/>
         </implementation>
+      <implementation id="*-*-1.17" released="2025-10-09" version="1.17">
+            <manifest-digest sha256new="YFXUAIANX6C63LMVTZWNQTMYP4NJA45I3C4HF7DR53VGR6UMAXYQ"/>
+            <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/235944131/download" size="43776912" type="application/zip"/>
+        </implementation>
     </group>
 </interface>
