@@ -31,6 +31,10 @@
             <manifest-digest sha256new="C7EYNE4PDWZ54COC5VNBYHVD2BTCVV5MJCYUPW6Y2TP4WGOIFYTQ"/>
             <archive href="https://github.com/HarbourMasters/Shipwright/releases/download/9.0.5/SoH-Blair-Foxtrot-Linux.zip" size="18812864" type="application/zip"/>
         </implementation>
+        <implementation id="Linux-x86_64-9.1.0" released="2025-10-22" version="9.1.0">
+            <manifest-digest sha256new="TBS6KAWBA457VTEAHPDWF4DOMU3IHU3XVRW42Z5NJQ24M4ELXH2A"/>
+            <archive href="https://github.com/HarbourMasters/Shipwright/releases/download/9.1.0/SoH-Copper-Alfa-Linux.zip" size="20519928" type="application/zip"/>
+        </implementation>
     </group>
     <group arch="Windows-x86_64">
         <command name="run" path="soh.exe"/>
@@ -58,10 +62,14 @@
             <manifest-digest sha256new="P6TVIDHNRD5S45TR6MOXZX2XWXI5JXQYLGXVD5XIZUWVFAJIKL6A"/>
             <archive href="https://github.com/HarbourMasters/Shipwright/releases/download/9.0.5/SoH-Blair-Foxtrot-Win64.zip" size="56717492" type="application/zip"/>
         </implementation>
+        <implementation id="Windows-x86_64-9.1.0" released="2025-10-22" version="9.1.0">
+            <manifest-digest sha256new="LLPMZPB57JQCNNCKFZOFQMVNQ4JZWT6AD4ZRR7A4GVNOX6FCWPTQ"/>
+            <archive href="https://github.com/HarbourMasters/Shipwright/releases/download/9.1.0/SoH-Copper-Alfa-Win64.zip" size="59498423" type="application/zip"/>
+        </implementation>
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaIOD+QAKCRDgFP8eMvv3HosGAP0cisTM
-mhGhf+ybg6FvVBdLP7FpC4eIyZZwCOezGa6aNwEA0kMTiXMg9BbOcR1HeZI/Sb61Vj/tOeGlan0Q
-NFf2vAo=
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaP3fFQAKCRDgFP8eMvv3HkvxAP0btDvz
+cVxS+snDPFYnMcNHanmWh5bXIYVbQ3XP9aXNnwEA/WkD1uQOOW5WhYlsuq0JYoYP7TVFv/jf9XnQ
+b3gzkws=
 -->

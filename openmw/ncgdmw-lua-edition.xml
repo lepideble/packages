@@ -184,10 +184,22 @@
             <manifest-digest sha256new="SCHDUCNCFFKAUUMYUM4X5P4EGG4ID3UXOWEO2QTTCEGGSVSQNTFA"/>
             <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/235258331/download" size="134467" type="application/zip"/>
         </implementation>
+        <implementation id="*-*-4.6.3" released="2025-10-14" version="4.6.3">
+            <manifest-digest sha256new="T5J6XHDKJNCHKOJCZXC5QSWNZTD3OTFICVDPH5HVWLI7Q5QUTGLQ"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/237598924/download" size="134506" type="application/zip"/>
+        </implementation>
+        <implementation id="*-*-4.6.4" released="2025-10-19" version="4.6.4">
+            <manifest-digest sha256new="UVZMF35CQLIJ2S4VHQVM7NGKZVH22IDBE4BVPM7SDITO5A3LMRZA"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/239027908/download" size="134650" type="application/zip"/>
+        </implementation>
+        <implementation id="*-*-4.6.5" released="2025-10-19" version="4.6.5">
+            <manifest-digest sha256new="YRXWYJF5ENDWOKRYS5FN6D44JKCFGYIK2KVRUCZ6UCLQYDMJB63Q"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/239029887/download" size="134664" type="application/zip"/>
+        </implementation>
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaOaxyQAKCRDgFP8eMvv3Hk0lAP94UbQ4
-KBX8dd5knaLyVCFH+bewOL2hGb3N0lvzV/lm1QD8C91Z4QQMoIa/xOgvICL/XnwISA9qbKBBISTh
-gz2Paw0=
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaP3fFAAKCRDgFP8eMvv3HikBAP9pu0/+
+3TYGm06wq2omgCEaSapz/aqj2b1qzL6EhKowfgD/RLuF6JEAKUUHmLaRKapD6/pIMyP4mMQnRXzy
+IG4n+wk=
 -->
