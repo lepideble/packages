@@ -38,6 +38,10 @@
             <manifest-digest sha256new="KTOUQDOA3KEZ6RDXDB2HOSTXKVDOSS5NAV4OVA55OXKXGENUBGYA"/>
             <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/2.0.1/2Ship-Rena-Bravo-Linux.zip" size="17589964" type="application/zip"/>
         </implementation>
+        <implementation id="Linux-x86_64-3.0.0" released="2025-10-30" version="3.0.0">
+            <manifest-digest sha256new="WKMIUVREHH7VZOXIWO7FTLUL7X7JQY6SZTXKFYP7GWYHS5XQXMLA"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/3.0.0/2Ship-Mion-Alfa-Linux.zip" size="18434882" type="application/zip"/>
+        </implementation>
     </group>
     <group arch="Windows-x86_64">
         <command name="run" path="2ship.exe"/>
@@ -73,10 +77,14 @@
             <manifest-digest sha256new="GPTB7AD4WFGFUQFUSGCG2ULN4UA54QBGXD7LW7SACSHPPZ4Q3JOA"/>
             <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/2.0.1/2Ship-Rena-Bravo-Win64.zip" size="50037198" type="application/zip"/>
         </implementation>
+        <implementation id="Windows-x86_64-3.0.0" released="2025-10-30" version="3.0.0">
+            <manifest-digest sha256new="7SZOF4RCKZNVWYA7LZ63KBBATELWDRWKWZO56M6N6CWIQKJPF36Q"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/3.0.0/2Ship-Mion-Alfa-Win64.zip" size="51764576" type="application/zip"/>
+        </implementation>
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaLiffAAKCRDgFP8eMvv3HliBAQDZapic
-zldCnSQKeoSTzdECxYi3x7GlVtQHcH3Wf4JM1AD/ZSHZpm3McKFQxfeSBrK2M+2QYIMR8ur3ShtR
-U9Hdmgw=
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaQXM9QAKCRDgFP8eMvv3Hou3AP4mhtV1
+rEmmXMk3GDq2pQ9iZ/pYDSx20XouGC/xG0wS+wD+LRh96fQ8iVdtSsCnC0939yTx8ABsqL3WDNEZ
+Mh5TCwk=
 -->
