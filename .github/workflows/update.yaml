@@ -26,7 +26,7 @@ jobs:
           commit-message: Update ${{ matrix.app }}
           body: Update ${{ matrix.app }}
           author: github-actions <41898282+github-actions[bot]@users.noreply.github.com>
-          branch: update/${{ matrix.app }}
+          branch: update/${{ matrix.app }}.xml
           title: Update ${{ matrix.app }}
     strategy:
       fail-fast: false
