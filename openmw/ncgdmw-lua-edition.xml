@@ -196,10 +196,14 @@
             <manifest-digest sha256new="YRXWYJF5ENDWOKRYS5FN6D44JKCFGYIK2KVRUCZ6UCLQYDMJB63Q"/>
             <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/239029887/download" size="134664" type="application/zip"/>
         </implementation>
+        <implementation id="*-*-4.6.6" released="2025-11-04" version="4.6.6">
+            <manifest-digest sha256new="HJQKAHPGFYLKC57JK3SWTATDFBSYP7NLEUAYA5RFXHATYDZ5Q3PA"/>
+            <archive href="https://gitlab.com/modding-openmw/ncgdmw-lua/-/package_files/243941746/download" size="140608" type="application/zip"/>
+        </implementation>
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaP3fFAAKCRDgFP8eMvv3HikBAP9pu0/+
-3TYGm06wq2omgCEaSapz/aqj2b1qzL6EhKowfgD/RLuF6JEAKUUHmLaRKapD6/pIMyP4mMQnRXzy
-IG4n+wk=
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaReCXwAKCRDgFP8eMvv3Hk4OAP9NjjXo
+uCpJAPMm7zU6s86uLfEn1S6ih1I76fXVz1KMBQEAzmUYdcs57lsHwgIDvNre8RI5LjW2/zxH5gse
+/arqYwE=
 -->
