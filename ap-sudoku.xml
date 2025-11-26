@@ -97,6 +97,14 @@
             <manifest-digest sha256new="CUMCFRUUAAN5WPHX3RBVSYUYS6LB4364K3ZDTMZJTCC7QR3KI7CQ"/>
             <archive href="https://github.com/APSudoku/APSudoku/releases/download/3.1.11/APSudoku_Linux_x64.zip" size="30907714" type="application/zip"/>
         </implementation>
+        <implementation id="Linux-aarch64-3.1.12" released="2025-11-20" stability="stable" version="3.1.12" arch="Linux-aarch64">
+            <manifest-digest sha256new="2WGF4ZLOL6NJSIPU5IJDM7WFXNRH3YSSAVDCP2WBLJUZ2AELSQJQ"/>
+            <archive href="https://github.com/APSudoku/APSudoku/releases/download/3.1.12/APSudoku_Linux_arm64.zip" size="29803879" type="application/zip"/>
+        </implementation>
+        <implementation id="Linux-x86_64-3.1.12" released="2025-11-20" stability="stable" version="3.1.12" arch="Linux-x86_64">
+            <manifest-digest sha256new="RGY7LCAQOSSTSO5WC5UJYSO4DQVF3OUN66N7QQML5D23G3XA52UQ"/>
+            <archive href="https://github.com/APSudoku/APSudoku/releases/download/3.1.12/APSudoku_Linux_x64.zip" size="30907488" type="application/zip"/>
+        </implementation>
     </group>
     <group>
         <command name="run" path="APSudoku_Linux_x64.exe"/>
@@ -104,10 +112,14 @@
             <manifest-digest sha256new="I3INEDECH34O3IN4S3DJZSUIHY2MRBIKXZTMMWJXM2CZMMGNRUCQ"/>
             <archive href="https://github.com/APSudoku/APSudoku/releases/download/3.1.11/APSudoku_Win_x64.zip" size="38279364" type="application/zip"/>
         </implementation>
+        <implementation id="Windows-x86_64-3.1.12" released="2025-11-20" stability="stable" version="3.1.12" arch="Windows-x86_64">
+            <manifest-digest sha256new="7RLSKTPW2QNEWMJ5EGGZE4TE72F73PEX2Y5Q6E7YGK3JCJBLTPUA"/>
+            <archive href="https://github.com/APSudoku/APSudoku/releases/download/3.1.12/APSudoku_Win_x64.zip" size="38279139" type="application/zip"/>
+        </implementation>
       </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaJ8NWwAKCRDgFP8eMvv3HgN3AP0WpyxI
-1j8QP8XtXBqhAsqefrnGO9v3iiXW7cEcqI6nSQEAtlZ7DhKBplzQUjYZNUgwXtVQSUm1rmg4JQSz
-1FiBUAA=
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaSdj6gAKCRDgFP8eMvv3HoJXAQDnPpzW
+/n17rYMX1Bg+MIcgNV+vJHlECg5vbxd8gZTVwQEA5kempsj8qRN+iKz0C0ZF4rZ0/Y9ZmTaRWpBI
+indZ2w0=
 -->
