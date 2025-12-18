@@ -135,10 +135,14 @@
             <manifest-digest sha256new="WHSA3Z47P3IAU5YXPAO7C2S6SPVHWPCE6GYJJFFVW7GTTJW6DQIQ"/>
             <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.6.5-rc2/Archipelago_0.6.5_linux-x86_64.tar.gz" size="122796781" extract="Archipelago" type="application/x-compressed-tar"/>
         </implementation>
+        <implementation id="Linux-x86_64-0.6.5" released="2025-12-17" stability="stable" version="0.6.5">
+            <manifest-digest sha256new="TIC764VLNYCEKFWJHQ4IFUFMNYIX3UQ2P5SGVJAZF25BDACE53AQ"/>
+            <archive href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.6.5/Archipelago_0.6.5_linux-x86_64.tar.gz" size="122793657" extract="Archipelago" type="application/x-compressed-tar"/>
+        </implementation>
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaUGXnwAKCRDgFP8eMvv3Hq91AQDuCEsx
-FPs+jG+KcrQumQw+8Tm8z6sYhvlJQsiOteeCDwEAxu+LRRyWLKulYEFd58p3SepIlXTZARGh27vA
-84s/Ew8=
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaURAJwAKCRDgFP8eMvv3HvL4APwMxi3i
+bC0vmKlR38R0DM68fRMQ4gFIBSoGezZ+SuKRDQD9H5WfLBwsEv/tM2zw1cJ6vTCu4Yyeq4SlMyHH
+k9J7wQw=
 -->
