@@ -104,6 +104,22 @@
             <manifest-digest sha256new="RGY7LCAQOSSTSO5WC5UJYSO4DQVF3OUN66N7QQML5D23G3XA52UQ"/>
             <archive href="https://github.com/APSudoku/APSudoku/releases/download/3.1.12/APSudoku_Linux_x64.zip" size="30907488" type="application/zip"/>
         </implementation>
+        <implementation id="Linux-aarch64-3.2.0" released="2025-12-25" stability="stable" version="3.2.0" arch="Linux-aarch64">
+            <manifest-digest sha256new="FG52PCWHNEMV3ZVP2EYNDQ3WYMJI26H4WWEPIOWCWSEITDUFP4HA"/>
+            <archive href="https://github.com/APSudoku/APSudoku/releases/download/3.2.0/APSudoku_Linux_arm64.zip" size="29804776" type="application/zip"/>
+        </implementation>
+        <implementation id="Linux-x86_64-3.2.0" released="2025-12-25" stability="stable" version="3.2.0" arch="Linux-x86_64">
+            <manifest-digest sha256new="YPLQXE3AYIPY4CYRPPEIFGACGS7XA4BK2G7BPBVN5WIDRUEG4RAQ"/>
+            <archive href="https://github.com/APSudoku/APSudoku/releases/download/3.2.0/APSudoku_Linux_x64.zip" size="30908385" type="application/zip"/>
+        </implementation>
+        <implementation id="Linux-aarch64-3.2.1" released="2026-01-05" stability="stable" version="3.2.1" arch="Linux-aarch64">
+            <manifest-digest sha256new="LH3XB7X2GGYXJBFFSURYQQEKDOQK3NY3CIXIYFSZEDSYSNS4ZXKQ"/>
+            <archive href="https://github.com/APSudoku/APSudoku/releases/download/3.2.1/APSudoku_Linux_arm64.zip" size="29805496" type="application/zip"/>
+        </implementation>
+        <implementation id="Linux-x86_64-3.2.1" released="2026-01-05" stability="stable" version="3.2.1" arch="Linux-x86_64">
+            <manifest-digest sha256new="GZ5CQZ7S6XVXUTO46HGVXC3AXGUGAXM7OUERYR2HTWKFXJRLUIEQ"/>
+            <archive href="https://github.com/APSudoku/APSudoku/releases/download/3.2.1/APSudoku_Linux_x64.zip" size="30909105" type="application/zip"/>
+        </implementation>
     </group>
     <group>
         <command name="run" path="APSudoku_Linux_x64.exe"/>
@@ -114,6 +130,14 @@
         <implementation id="Windows-x86_64-3.1.12" released="2025-11-20" stability="stable" version="3.1.12" arch="Windows-x86_64">
             <manifest-digest sha256new="7RLSKTPW2QNEWMJ5EGGZE4TE72F73PEX2Y5Q6E7YGK3JCJBLTPUA"/>
             <archive href="https://github.com/APSudoku/APSudoku/releases/download/3.1.12/APSudoku_Win_x64.zip" size="38279139" type="application/zip"/>
+        </implementation>
+        <implementation id="Windows-x86_64-3.2.0" released="2025-12-25" stability="stable" version="3.2.0" arch="Windows-x86_64">
+            <manifest-digest sha256new="HHEGLUUXQSRP4QDFJWX4MNW5YQ7ZAYHOJQYP7OH4YA4OFQEUVAHQ"/>
+            <archive href="https://github.com/APSudoku/APSudoku/releases/download/3.2.0/APSudoku_Win_x64.zip" size="38280038" type="application/zip"/>
+        </implementation>
+        <implementation id="Windows-x86_64-3.2.1" released="2026-01-05" stability="stable" version="3.2.1" arch="Windows-x86_64">
+            <manifest-digest sha256new="5R3PWGVY7WCWQEQFDIOLFXOQ6BVWNCOUDWP7ON3GDB2C3TTOSGHA"/>
+            <archive href="https://github.com/APSudoku/APSudoku/releases/download/3.2.1/APSudoku_Win_x64.zip" size="38280755" type="application/zip"/>
         </implementation>
       </group>
 </interface>
