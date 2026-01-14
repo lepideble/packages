@@ -30,7 +30,7 @@ class APSudoku(app.App):
         if arch == 'Linux-x86_64'or arch == 'Linux-aarch64':
             yield feed.Command(name='run', path='APSudoku_Linux_x64')
         if arch == 'Windows-x86_64':
-            yield feed.Command(name='run', path='APSudoku_Linux_x64.exe')
+            yield feed.Command(name='run', path='APSudoku_Win_x64.exe')
 
     def archive(self, arch, version):
         if version['files'][arch] is None:
