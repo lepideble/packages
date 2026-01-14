@@ -46,6 +46,10 @@
             <manifest-digest sha256new="2BQUTCPO4PTLRAP2TKIKQIIRIR32RDW4REYSZHB5SGJQ3QLSQL2Q"/>
             <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/3.0.1/2Ship-Mion-Bravo-Linux.zip" size="18442259" type="application/zip"/>
         </implementation>
+        <implementation id="Linux-x86_64-3.0.2" released="2026-01-05" version="3.0.2">
+            <manifest-digest sha256new="GM2KT42QQUZPSX766NOMEP2T5QMBERCC5SXQX22RYP7UHJTC2SCQ"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/3.0.2/2Ship-Mion-Charlie-Linux.zip" size="18435111" type="application/zip"/>
+        </implementation>
     </group>
     <group arch="Windows-x86_64">
         <command name="run" path="2ship.exe"/>
@@ -89,10 +93,14 @@
             <manifest-digest sha256new="E43JPGBNDLGBMFF6WYKZGUFXSUXM4AHCIDL5FGN6G4YCZNHNYAZA"/>
             <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/3.0.1/2Ship-Mion-Bravo-Win64.zip" size="52336553" type="application/zip"/>
         </implementation>
+        <implementation id="Windows-x86_64-3.0.2" released="2026-01-05" version="3.0.2">
+            <manifest-digest sha256new="FIKZV6JCO7W6WRZTNO3YGZLTWVTR7Q5KP3IAVUECONQLH2EAM2HA"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/3.0.2/2Ship-Mion-Charlie-Win64.zip" size="52735307" type="application/zip"/>
+        </implementation>
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaReCWgAKCRDgFP8eMvv3HlIGAQDhDCfK
-lNUfEK8FNCAWgOxOMlealXqdEtqUcixJHh59iQD+P2xlInBs55EAQexA1uZD3VHXxZvyXUOSn291
-xgJHfQQ=
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaWfllwAKCRDgFP8eMvv3HufuAP0bgOHj
+OCVnokoiikj68W/4VycOQqTT8cqQoxTv549bTAD/aV4fOi/50C71S9G4Uo8w3PuQF/357kk9Cf18
+WsOP2gY=
 -->
