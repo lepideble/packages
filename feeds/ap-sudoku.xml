@@ -122,7 +122,7 @@
         </implementation>
     </group>
     <group>
-        <command name="run" path="APSudoku_Linux_x64.exe"/>
+        <command name="run" path="APSudoku_Win_x64.exe"/>
         <implementation id="Windows-x86_64-3.1.11" released="2025-07-25" stability="stable" version="3.1.11" arch="Windows-x86_64">
             <manifest-digest sha256new="I3INEDECH34O3IN4S3DJZSUIHY2MRBIKXZTMMWJXM2CZMMGNRUCQ"/>
             <archive href="https://github.com/APSudoku/APSudoku/releases/download/3.1.11/APSudoku_Win_x64.zip" size="38279364" type="application/zip"/>
