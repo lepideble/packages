@@ -38,6 +38,10 @@
             <manifest-digest sha256new="767NTIXBSKWD7YHS23OOMS5C5XZZUMVGC6JM2V5GVSX2RG23Q27Q"/>
             <archive href="https://github.com/HarbourMasters/Shipwright/releases/download/9.1.1/SoH-Copper-Bravo-Linux.zip" size="20589941" type="application/zip"/>
         </implementation>
+        <implementation id="Linux-x86_64-9.1.2" released="2026-01-19" version="9.1.2">
+            <manifest-digest sha256new="RWOG53YY2FKIWIOLDAVHX2DS4OKUFRUCQ4C4MLYF3DFDDRCL2EOQ"/>
+            <archive href="https://github.com/HarbourMasters/Shipwright/releases/download/9.1.2/SoH-Copper-Charlie-Linux.zip" size="20757455" type="application/zip"/>
+        </implementation>
     </group>
     <group arch="Windows-x86_64">
         <command name="run" path="soh.exe"/>
@@ -72,6 +76,10 @@
         <implementation id="Windows-x86_64-9.1.1" released="2025-11-05" version="9.1.1">
             <manifest-digest sha256new="MX6T7GSTUQCRHED4JSYZ2VALZKXHOZWQUKSRDO6EN5LVGVHUU34A"/>
             <archive href="https://github.com/HarbourMasters/Shipwright/releases/download/9.1.1/SoH-Copper-Bravo-Win64.zip" size="59487012" type="application/zip"/>
+        </implementation>
+        <implementation id="Windows-x86_64-9.1.2" released="2026-01-19" version="9.1.2">
+            <manifest-digest sha256new="SPBIXVXTHXWBNQHZJK5GDFWNVUSFO3IYHTDIFLYB7DUR4NABHXUQ"/>
+            <archive href="https://github.com/HarbourMasters/Shipwright/releases/download/9.1.2/SoH-Copper-Charlie-Win64.zip" size="59851222" type="application/zip"/>
         </implementation>
     </group>
 </interface>
