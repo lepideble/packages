@@ -49,6 +49,10 @@
             <manifest-digest sha256new="GM2KT42QQUZPSX766NOMEP2T5QMBERCC5SXQX22RYP7UHJTC2SCQ"/>
             <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/3.0.2/2Ship-Mion-Charlie-Linux.zip" size="18435111" type="application/zip"/>
         </implementation>
+        <implementation id="Linux-x86_64-4.0.0" released="2026-01-30" version="4.0.0">
+            <manifest-digest sha256new="HPB6PQEVCRPJL6ZDSK76CPW2V4PTBDIMLSW64YDGCYQAMPTTERPA"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/4.0.0/2Ship-Keiichi-Alfa-Linux.zip" size="21142676" type="application/zip"/>
+        </implementation>
     </group>
     <group arch="Windows-x86_64">
         <command name="run" path="2ship.exe"/>
@@ -95,6 +99,10 @@
         <implementation id="Windows-x86_64-3.0.2" released="2026-01-05" version="3.0.2">
             <manifest-digest sha256new="FIKZV6JCO7W6WRZTNO3YGZLTWVTR7Q5KP3IAVUECONQLH2EAM2HA"/>
             <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/3.0.2/2Ship-Mion-Charlie-Win64.zip" size="52735307" type="application/zip"/>
+        </implementation>
+        <implementation id="Windows-x86_64-4.0.0" released="2026-01-30" version="4.0.0">
+            <manifest-digest sha256new="ZEVNTGJRPGMOUM73PSU7MBQ3XCWTNTH4M6Z5VTRJ3PLD6DMS7EGQ"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/4.0.0/2Ship-Keiichi-Alfa-Win64.zip" size="49773009" type="application/zip"/>
         </implementation>
     </group>
 </interface>
