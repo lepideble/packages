@@ -17,9 +17,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.2.2
       - name: Run update
-        run: python3 apps/${{ matrix.app }}.py
-        env:
-          PYTHONPATH: '.'
+        run: ./bin/update "${{ matrix.app }}"
       - name: Create pull request
         uses: peter-evans/create-pull-request@v7.0.8
         with:
@@ -33,6 +31,7 @@ jobs:
       matrix:
         app:
           - 2-ship-2-harkinian
+          - ap-proxy
           - ap-sudoku
           - archipelago
           - archipelago-retro-arch-client
