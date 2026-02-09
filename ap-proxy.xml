@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="resources/feed.xsl" type="text/xsl"?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://lepideble.github.io/packages/ap-proxy.xml">
+    <name>APProxy</name>
+    <summary>Archipelago proxy to help debug connection errors</summary>
+    <group>
+        <command name="run" path="index.ts">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="22.18.0.."/>
+        </command>
+        <implementation id="0.1.0" released="2026-02-09" version="0.1.0">
+            <manifest-digest sha256new="H4WYSYUMT2HIBNVPW3O5IL73FBAKVNSONKR5APMBQ25YB2I23MNQ"/>
+            <archive href="https://github.com/lepideble/ap-proxy/releases/download/v0.1.0/APProxy.tar.gz" size="37322"/>
+        </implementation>
+    </group>
+</interface>
+<!-- Base64 Signature
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaYoRJAAKCRDgFP8eMvv3HhGNAQDI/GNq
+8k8c/uSl4MlOKpyIi0nTzdpTfmzEZ6oAM1Xe7AEAlv8Sj5DZBImTNZF9P1AOCsm5jeuhzbmPrhHH
+yJLNOgA=
+-->
