@@ -17,7 +17,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.2.2
       - name: Run update
-        run: ./bin/update "${{ matrix.app }}"
+        run: ./bin/update.sh "${{ matrix.app }}"
       - name: Create pull request
         uses: peter-evans/create-pull-request@v7.0.8
         with:
