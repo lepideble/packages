@@ -16,6 +16,8 @@ jobs:
           sudo apt-get install 0install
       - name: Checkout
         uses: actions/checkout@v4.2.2
+        with:
+          submodules: true
       - name: Run update
         run: ./bin/update.sh "${{ matrix.app }}"
       - name: Create pull request
