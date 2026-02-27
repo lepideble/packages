@@ -54,6 +54,10 @@
             <manifest-digest sha256new="HPB6PQEVCRPJL6ZDSK76CPW2V4PTBDIMLSW64YDGCYQAMPTTERPA"/>
             <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/4.0.0/2Ship-Keiichi-Alfa-Linux.zip" size="21142676" type="application/zip"/>
         </implementation>
+        <implementation id="Linux-x86_64-4.0.1" released="2026-02-27" version="4.0.1">
+            <manifest-digest sha256new="AHBOYHZGGW5RG2RI2GOAWO775L5WWRANENCBGWQCNIXYMBXFWM3A"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/4.0.1/2Ship-Keiichi-Bravo-Linux.zip" size="21141273" type="application/zip"/>
+        </implementation>
     </group>
     <group arch="Windows-x86_64">
         <command name="run" path="2ship.exe"/>
@@ -105,10 +109,14 @@
             <manifest-digest sha256new="ZEVNTGJRPGMOUM73PSU7MBQ3XCWTNTH4M6Z5VTRJ3PLD6DMS7EGQ"/>
             <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/4.0.0/2Ship-Keiichi-Alfa-Win64.zip" size="49773009" type="application/zip"/>
         </implementation>
+        <implementation id="Windows-x86_64-4.0.1" released="2026-02-27" version="4.0.1">
+            <manifest-digest sha256new="D2VOXO5ZYJJQVSRLCBY4ERQUBCPHT2J7DH4YTV4EA7RXCAMFEQSA"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/4.0.1/2Ship-Keiichi-Bravo-Win64.zip" size="49983577" type="application/zip"/>
+        </implementation>
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaYELdAAKCRDgFP8eMvv3HmtCAQC8zP/s
-eTRu2EnItm4ehcXgSRNiOQtZkFo23UaKJbucSQD/TCoBk7JaSOtNTwmLMqqb1YOnGlqXD62EJ/wF
-wLk+ego=
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaaFW0gAKCRDgFP8eMvv3HjKlAQDsknJR
+qLtIiU7ABU2TQhqGHC4e0plUgB4/8g9E29uYjwEAgsgoWpxcCUeWttmFS9yu3LlOPG53ICno69yv
+y+g+oAs=
 -->
