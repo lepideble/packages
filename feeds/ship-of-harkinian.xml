@@ -46,6 +46,10 @@
             <manifest-digest sha256new="Y2OCMEJ4PQXLNBXOQ5ZHJUFWISZSBBZPVFNBNUQJ3RQ54XVIQAAQ"/>
             <archive href="https://github.com/HarbourMasters/Shipwright/releases/download/9.2.0/SoH-Ackbar-Alpha-Linux.zip" size="28340456" type="application/zip"/>
         </implementation>
+        <implementation id="Linux-x86_64-9.2.1" released="2026-03-28" version="9.2.1">
+            <manifest-digest sha256new="GHNVRR4Y74NAHCRYN7MDRK2LLSWW56XJXFTXHOH2Y4V47A5I445A"/>
+            <archive href="https://github.com/HarbourMasters/Shipwright/releases/download/9.2.1/SoH-Ackbar-Bravo-Linux.zip" size="28315614" type="application/zip"/>
+        </implementation>
     </group>
     <group arch="Windows-x86_64">
         <command name="run" path="soh.exe"/>
@@ -88,6 +92,10 @@
         <implementation id="Windows-x86_64-9.2.0" released="2026-03-22" version="9.2.0">
             <manifest-digest sha256new="Q3HOBR344ND4XEDV24L5QY5VKFEQBHFGLR5CLV5OYQV4IPV5EFKA"/>
             <archive href="https://github.com/HarbourMasters/Shipwright/releases/download/9.2.0/SoH-Ackbar-Alpha-Win64.zip" size="71539908" type="application/zip"/>
+        </implementation>
+        <implementation id="Windows-x86_64-9.2.1" released="2026-03-28" version="9.2.1">
+            <manifest-digest sha256new="H6FZTVKSS6QEOAFL5FZXXLKQWSNLXRVSYSLGCVFDPMO2WQZIO7NQ"/>
+            <archive href="https://github.com/HarbourMasters/Shipwright/releases/download/9.2.1/SoH-Ackbar-Bravo-Win64.zip" size="71612991" type="application/zip"/>
         </implementation>
     </group>
 </interface>
