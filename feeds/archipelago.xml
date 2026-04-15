@@ -8,6 +8,7 @@
         <command name="ahit-client" path="ArchipelagoAHITClient"/>
         <command name="biz-hawk-client" path="ArchipelagoBizHawkClient"/>
         <command name="checks-finder-client" path="ArchipelagoChecksFinderClient"/>
+        <command name="generate" path="ArchipelagoGenerate"/>
         <command name="kh1-client" path="ArchipelagoKH1Client"/>
         <command name="kh2-client" path="ArchipelagoKH2Client"/>
         <command name="links-awakening-client" path="ArchipelagoLinksAwakeningClient"/>

@@ -29,6 +29,7 @@ class Archipelago(app.App):
             yield feed.Command(name='ahit-client', path='ArchipelagoAHITClient')
             yield feed.Command(name='biz-hawk-client', path='ArchipelagoBizHawkClient')
             yield feed.Command(name='checks-finder-client', path='ArchipelagoChecksFinderClient')
+            yield feed.Command(name='generate', path='ArchipelagoGenerate')
             yield feed.Command(name='kh1-client', path='ArchipelagoKH1Client')
             yield feed.Command(name='kh2-client', path='ArchipelagoKH2Client')
             yield feed.Command(name='links-awakening-client', path='ArchipelagoLinksAwakeningClient')
