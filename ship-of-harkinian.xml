@@ -51,6 +51,14 @@
             <manifest-digest sha256new="GHNVRR4Y74NAHCRYN7MDRK2LLSWW56XJXFTXHOH2Y4V47A5I445A"/>
             <archive href="https://github.com/HarbourMasters/Shipwright/releases/download/9.2.1/SoH-Ackbar-Bravo-Linux.zip" size="28315614" type="application/zip"/>
         </implementation>
+        <implementation id="Linux-x86_64-9.2.2" released="2026-04-14" version="9.2.2">
+            <manifest-digest sha256new="AIF6EWA4U3BNTT6CVAKGIPHDUP56DPFHNHJARX445Z56KMXBFKSQ"/>
+            <archive href="https://github.com/HarbourMasters/Shipwright/releases/download/9.2.2/SoH-Ackbar-Charlie-Linux.zip" size="28309388" type="application/zip"/>
+        </implementation>
+        <implementation id="Linux-x86_64-9.2.3" released="2026-04-14" version="9.2.3">
+            <manifest-digest sha256new="NHVPDR4Y4QOIEPDFI6NE725EDABEDHURPEAGWCOYSVKCTWOIVC7A"/>
+            <archive href="https://github.com/HarbourMasters/Shipwright/releases/download/9.2.3/SoH-Ackbar-Delta-Linux.zip" size="28310917" type="application/zip"/>
+        </implementation>
     </group>
     <group arch="Windows-x86_64">
         <command name="run" path="soh.exe"/>
@@ -98,10 +106,18 @@
             <manifest-digest sha256new="H6FZTVKSS6QEOAFL5FZXXLKQWSNLXRVSYSLGCVFDPMO2WQZIO7NQ"/>
             <archive href="https://github.com/HarbourMasters/Shipwright/releases/download/9.2.1/SoH-Ackbar-Bravo-Win64.zip" size="71612991" type="application/zip"/>
         </implementation>
+        <implementation id="Windows-x86_64-9.2.2" released="2026-04-14" version="9.2.2">
+            <manifest-digest sha256new="DZJFSPKGF5SD4X3XTMS45MTWCO67QJWXSWBIPCYB2LEPIEQ5HMSA"/>
+            <archive href="https://github.com/HarbourMasters/Shipwright/releases/download/9.2.2/SoH-Ackbar-Charlie-Win64.zip" size="71749718" type="application/zip"/>
+        </implementation>
+        <implementation id="Windows-x86_64-9.2.3" released="2026-04-14" version="9.2.3">
+            <manifest-digest sha256new="TDSRSOFBW5UZ4NZZB7COIF5IIUFOZQGIX3V5NY4TLEGEXFQ6LHMQ"/>
+            <archive href="https://github.com/HarbourMasters/Shipwright/releases/download/9.2.3/SoH-Ackbar-Delta-Win64.zip" size="71894139" type="application/zip"/>
+        </implementation>
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCadFkHQAKCRDgFP8eMvv3Hv2PAP9k3Alc
-pRGtCwTyWxLy2BiGhZJySZvzWP+FyD1Fn5+k7AEApLcghydtK3wQZA6p4RlY45xnNuJruSGFH0dc
-0zBG8gA=
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCad/9rwAKCRDgFP8eMvv3HsTrAP9ejt6h
+LNeGZIv52HsF2pKJYYJ0AHDqalec7ct6bc4x5gD+NT3ADK8VmxawAOtynM6uPHSktzKVcxz+div7
+2hFzugc=
 -->

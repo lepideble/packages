@@ -80,10 +80,14 @@
             <manifest-digest sha256new="YFXUAIANX6C63LMVTZWNQTMYP4NJA45I3C4HF7DR53VGR6UMAXYQ"/>
             <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/235944131/download" size="43776912" type="application/zip"/>
         </implementation>
+        <implementation id="*-*-1.18" released="2026-04-07" version="1.18">
+            <manifest-digest sha256new="XUGENCGBKP2BIOOPHSRN5JQHWGLFW4XDSIFTAM3W3ZGMRWFVZ5BQ"/>
+            <archive href="https://gitlab.com/modding-openmw/momw-post-processing-pack/-/package_files/288553600/download" size="57337886" type="application/zip"/>
+        </implementation>
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCaP3fFAAKCRDgFP8eMvv3HsniAQCGSPoM
-+Hk1vgtZXVgs1/CbCYhSgUhKV3su2iL+LrlvDAEAhR9qMrg5T7vqQB5fsjymJS0KBCK44Mlo5X8Q
-bhrQHwQ=
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCad/9qQAKCRDgFP8eMvv3HrlrAP0bI75K
+eg+3VwPZI7KcTRh64n81gieJtkpEvxE3Q6k2WwD/e7dPVnnXRI6w88v8Pmyt0gk9Tl3iSnLHEXey
+5iGCnQI=
 -->
