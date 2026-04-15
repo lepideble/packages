@@ -9,6 +9,7 @@
         <command name="ahit-client" path="ArchipelagoAHITClient"/>
         <command name="biz-hawk-client" path="ArchipelagoBizHawkClient"/>
         <command name="checks-finder-client" path="ArchipelagoChecksFinderClient"/>
+        <command name="generate" path="ArchipelagoGenerate"/>
         <command name="kh1-client" path="ArchipelagoKH1Client"/>
         <command name="kh2-client" path="ArchipelagoKH2Client"/>
         <command name="links-awakening-client" path="ArchipelagoLinksAwakeningClient"/>
@@ -158,7 +159,7 @@
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCadFkGAAKCRDgFP8eMvv3HlF8AP0aBAh3
-uB74IpNFJGtqu68BuJm4ybXoFnrwJbrJFzcEBwEA3sADphGKIUPZOUqXxKfIdi1Qh/i9Kl731745
-t/9ZuQY=
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCad/+XwAKCRDgFP8eMvv3HsR0AP949Syo
+28NKhVRDOBV5QrZGtMQujkFx7ZgmwJcvdv7+vgD+JNkM45ecY+UfA48DoOlEi0x/zjLZb1tXp6Q4
+JuFUsQI=
 -->
