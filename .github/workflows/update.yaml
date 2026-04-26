@@ -41,3 +41,4 @@ jobs:
           - openmw/momw-post-processing-pack
           - openmw/ncgdmw-lua-edition
           - ship-of-harkinian
+          - tes3conv
