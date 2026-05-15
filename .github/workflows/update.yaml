@@ -37,6 +37,7 @@ jobs:
           - ap-sudoku
           - archipelago
           - archipelago-retro-arch-client
+          - dusklight
           - openmw
           - openmw/momw-post-processing-pack
           - openmw/ncgdmw-lua-edition

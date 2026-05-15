@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://lepideble.github.io/packages/dusklight.xml">
+    <name>Dusklight</name>
+    <summary>brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements</summary>
+    <group arch="Linux-x86_64">
+        <command name="run" path="Dusklight.AppImage"/>
+        <implementation id="1.0.1-Linux-x86_64" released="2026-05-11" version="1.0.1">
+            <manifest-digest sha256new="B7MJFDBCC35CCXXH7EJPQQQAMD2A4XIMY3F44Y3QRBEIRVNH2LSQ"/>
+            <file href="https://github.com/TwilitRealm/dusklight/releases/download/v1.0.1/Dusk-v1.0.1-linux-x86_64.AppImage" size="34253304" dest="Dusklight.AppImage" executable="true"/>
+        </implementation>
+        <implementation id="1.1.1-Linux-x86_64" released="2026-05-13" version="1.1.1">
+            <manifest-digest sha256new="PZBVKFDABJIG4XF2LZCRHST4LLOD7HNE2LGPJLUXU45VVMHKYGLA"/>
+            <file href="https://github.com/TwilitRealm/dusklight/releases/download/v1.1.1/Dusklight-v1.1.1-linux-x86_64.AppImage" size="34212344" dest="Dusklight.AppImage" executable="true"/>
+        </implementation>
+    </group>
+    <group arch="Windows-x86_64">
+        <command name="run" path="dusklight.exe"/>
+        <implementation id="0.4.1-Windows-x86_64" released="2026-04-24" version="0.4.1">
+            <manifest-digest sha256new="TXSHJGV323JW5G3XEXC6J7OQJEUZORSKFPDEFX7TGZAEQI72BGPQ"/>
+            <archive href="https://github.com/TwilitRealm/dusklight/releases/download/v0.4.1/Dusk-v0.4.1-win32-x86_64.zip" size="29667436" extract="Dusk-v0.4.1-win32-x86_64"/>
+        </implementation>
+        <implementation id="0.4.2-Windows-x86_64" released="2026-04-24" version="0.4.2">
+            <manifest-digest sha256new="XTPIOYLYHH6MN3ZGXPUECOFGWUNLDGV3CV4AFD2J7IJ37BILEVYA"/>
+            <archive href="https://github.com/TwilitRealm/dusklight/releases/download/v0.4.2/Dusk-v0.4.2-win32-x86_64.zip" size="29678412" extract="Dusk-v0.4.2-win32-x86_64"/>
+        </implementation>
+        <implementation id="0.4.3-Windows-x86_64" released="2026-04-24" version="0.4.3">
+            <manifest-digest sha256new="K2IPH2753BOXJDUTLBMWJMSSEDP4XVY6HNJVMI7H3WLTEA3HWDIA"/>
+            <archive href="https://github.com/TwilitRealm/dusklight/releases/download/v0.4.3/Dusk-v0.4.3-win32-x86_64.zip" size="29678828" extract="Dusk-v0.4.3-win32-x86_64"/>
+        </implementation>
+        <implementation id="0.5.0-Windows-x86_64" released="2026-04-26" version="0.5.0">
+            <manifest-digest sha256new="WEBACW7T2QMKT5K6YWZI2CBALDCVF4TUSNWOC6HJPZOADAMXQGSA"/>
+            <archive href="https://github.com/TwilitRealm/dusklight/releases/download/v0.5.0/Dusk-v0.5.0-win32-x86_64.zip" size="29720104" extract="Dusk-v0.5.0-win32-x86_64"/>
+        </implementation>
+        <implementation id="0.5.1-Windows-x86_64" released="2026-04-27" version="0.5.1">
+            <manifest-digest sha256new="FJLQGN22254W6KUJ3M4NW77DCGPJAEYK7CDREVUY2ZEFX737NNHA"/>
+            <archive href="https://github.com/TwilitRealm/dusklight/releases/download/v0.5.1/Dusk-v0.5.1-win32-x86_64.zip" size="29729930" extract="Dusk-v0.5.1-win32-x86_64"/>
+        </implementation>
+        <implementation id="0.5.2-Windows-x86_64" released="2026-04-28" version="0.5.2">
+            <manifest-digest sha256new="DV26GSRK7UFYKVCHVDDDEAXWEFEAJCKXOT7AXRMGKIBNXQOVHJJQ"/>
+            <archive href="https://github.com/TwilitRealm/dusklight/releases/download/v0.5.2/Dusk-v0.5.2-win32-x86_64.zip" size="29727909" extract="Dusk-v0.5.2-win32-x86_64"/>
+        </implementation>
+        <implementation id="0.5.3-Windows-x86_64" released="2026-04-29" version="0.5.3">
+            <manifest-digest sha256new="6CD5G5Z6FRKNJMKGZUYRBLRC7SUVNH7WK25CKMV3C4OG4ILL64PA"/>
+            <archive href="https://github.com/TwilitRealm/dusklight/releases/download/v0.5.3/Dusk-v0.5.3-win32-x86_64.zip" size="29740912" extract="Dusk-v0.5.3-win32-x86_64"/>
+        </implementation>
+        <implementation id="0.6.0-Windows-x86_64" released="2026-05-04" version="0.6.0">
+            <manifest-digest sha256new="YSMTVQQ5NKUKALI3PBWM6VUZ77W5VNI3GOVTDADR75MZA7FN3VRA"/>
+            <archive href="https://github.com/TwilitRealm/dusklight/releases/download/v0.6.0/Dusk-v0.6.0-win32-x86_64.zip" size="34536221" extract="Dusk-v0.6.0-win32-x86_64"/>
+        </implementation>
+        <implementation id="0.6.1-Windows-x86_64" released="2026-05-06" version="0.6.1">
+            <manifest-digest sha256new="EHVGZFKICGY6ECHWFPEKLY3NRM3WCEBFVFL4I7V7ABAAB5PQI3OQ"/>
+            <archive href="https://github.com/TwilitRealm/dusklight/releases/download/v0.6.1/Dusk-v0.6.1-win32-x86_64.zip" size="34617573" extract="Dusk-v0.6.1-win32-x86_64"/>
+        </implementation>
+        <implementation id="0.6.2-Windows-x86_64" released="2026-05-07" version="0.6.2">
+            <manifest-digest sha256new="LJFMWR3LXFNL4SE7OBCFFH7U6IH7YO3GHZVBW3ALJ5DUXZOIFVJQ"/>
+            <archive href="https://github.com/TwilitRealm/dusklight/releases/download/v0.6.2/Dusk-v0.6.2-win32-x86_64.zip" size="34632240" extract="Dusk-v0.6.2-win32-x86_64"/>
+        </implementation>
+        <implementation id="0.6.3-Windows-x86_64" released="2026-05-08" version="0.6.3">
+            <manifest-digest sha256new="WAGYTISIQUVPKVECDHSIHFRBU5YEK62GTJTKSRQFKQ6A6NP5JA6A"/>
+            <archive href="https://github.com/TwilitRealm/dusklight/releases/download/v0.6.3/Dusk-v0.6.3-win32-x86_64.zip" size="34645003" extract="Dusk-v0.6.3-win32-x86_64"/>
+        </implementation>
+        <implementation id="1.0.0-rc1-Windows-x86_64" released="2026-05-09" version="1.0.0-rc1">
+            <manifest-digest sha256new="VIE7OJUO6ARHUYYSJPDQWYAFPM4UIOKT7YHD57HXGIYJVPHBPBQA"/>
+            <archive href="https://github.com/TwilitRealm/dusklight/releases/download/v1.0.0-rc.1/Dusk-v1.0.0-rc.1-win32-x86_64.zip" size="33469933" extract="Dusk-v1.0.0-rc.1-win32-x86_64"/>
+        </implementation>
+        <implementation id="1.0.0-Windows-x86_64" released="2026-05-09" version="1.0.0">
+            <manifest-digest sha256new="UAE3XUYCPTQ52WYNG6GOP7L6ULNO4LDHX7CXS5UGQSWSWWTYHB4A"/>
+            <archive href="https://github.com/TwilitRealm/dusklight/releases/download/v1.0.0/Dusk-v1.0.0-win32-x86_64.zip" size="33470634" extract="Dusk-v1.0.0-win32-x86_64"/>
+        </implementation>
+        <implementation id="1.0.1-Windows-x86_64" released="2026-05-11" version="1.0.1">
+            <manifest-digest sha256new="527ZZB3R5MYMEKU2WH7JCWULTK62RSU2FHB6DCXOS276WT4TUBUA"/>
+            <archive href="https://github.com/TwilitRealm/dusklight/releases/download/v1.0.1/Dusk-v1.0.1-win32-x86_64.zip" size="34429713" extract="Dusk-v1.0.1-win32-x86_64"/>
+        </implementation>
+        <implementation id="1.1.1-Windows-x86_64" released="2026-05-13" version="1.1.1">
+            <manifest-digest sha256new="KHIKC2T4H65XCLBPZM7GWR4CHWV4N5YZI53DB5BMJNIQYFBDLIOA"/>
+            <archive href="https://github.com/TwilitRealm/dusklight/releases/download/v1.1.1/Dusklight-v1.1.1-win32-x86_64.zip" size="35012627" extract="Dusklight-v1.1.1-win32-x86_64"/>
+        </implementation>
+    </group>
+</interface>
