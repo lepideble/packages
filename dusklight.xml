@@ -17,6 +17,10 @@
             <manifest-digest sha256new="VW2IS7SB7YZFFCGJMV4PDW6HAGHPWPXDXQVOLFHQ7HJO22ORVEHA"/>
             <file href="https://github.com/TwilitRealm/dusklight/releases/download/v1.2.0/Dusklight-v1.2.0-linux-x86_64.AppImage" size="34236920" dest="Dusklight.AppImage" executable="true"/>
         </implementation>
+        <implementation id="1.3.0-Linux-x86_64" released="2026-05-25" version="1.3.0">
+            <manifest-digest sha256new="I2ZTVHHXTK5LLBSYG5OEB7T6WNNMGLUMMT7QTPHYLE5R3EJ74MYA"/>
+            <file href="https://github.com/TwilitRealm/dusklight/releases/download/v1.3.0/Dusklight-v1.3.0-linux-x86_64.AppImage" size="33167864" dest="Dusklight.AppImage" executable="true"/>
+        </implementation>
     </group>
     <group arch="Windows-x86_64">
         <command name="run" path="dusklight.exe"/>
@@ -84,10 +88,14 @@
             <manifest-digest sha256new="3HBXSSFJ37SCPQONGZJGCKSVE376BXI337WYZD3DYCKJ4EBFPCXA"/>
             <archive href="https://github.com/TwilitRealm/dusklight/releases/download/v1.2.0/Dusklight-v1.2.0-win32-x86_64.zip" size="37178914" extract="Dusklight-v1.2.0-win32-x86_64"/>
         </implementation>
+        <implementation id="1.3.0-Windows-x86_64" released="2026-05-25" version="1.3.0">
+            <manifest-digest sha256new="AEFX3IHO6KH7JFCLS7SAH6RVVSA5FACLZGVYC733PP45PIVXQCFA"/>
+            <archive href="https://github.com/TwilitRealm/dusklight/releases/download/v1.3.0/Dusklight-v1.3.0-win32-x86_64.zip" size="37013470" extract="Dusklight-v1.3.0-win32-x86_64"/>
+        </implementation>
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCags/uAAKCRDgFP8eMvv3HnxfAP9PuuHg
-N4t91sCAjUelYa0CGjjl1cpyaWoANb+Hu5RxUwEAnWX0tIiaPjk+A77mjILujmiSol0mHz7GTQCk
-HMT67Ak=
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCahYbvQAKCRDgFP8eMvv3HmKzAPkBzM4T
+qAwbyUaASoFFjsgtc3x//vgVQS881Gys077qqQEAkTZKlwshySfzc+UAaICYjgq3S+ijtXgffwxI
+qVMWlw8=
 -->
