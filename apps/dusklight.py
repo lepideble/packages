@@ -1,5 +1,3 @@
-import posixpath
-
 from jvasseur.packaging.feed import Command, Runner
 from jvasseur.packaging.app.github import ArchiveGitHubApp, FileGitHubApp, GitHubApp
 from config import base_url
@@ -46,7 +44,7 @@ class Dusklight(GitHubApp):
         return True
 
     def extract(self, data):
-        return posixpath.splitext(data['asset']['name'])[0]
+        return None
 
 if __name__ == '__main__':
     Dusklight().main()
