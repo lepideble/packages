@@ -61,6 +61,10 @@
             <manifest-digest sha256new="6Y2IDGAYVFCOVXK5W4CHS73RVU47AGXM443QMPDKKXBCSFG52OJQ"/>
             <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/4.0.2/2Ship-Keiichi-Charlie-Linux.zip" size="21142077" type="application/zip"/>
         </implementation>
+      <implementation id="Linux-x86_64-5.0.0" released="2026-08-11" version="5.0.0">
+            <manifest-digest sha256new="2IIJUTE6GFT4AF3AQGBVXNEIHDELBEJRBGBYNR5JBHHXX3ZK6E2A"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/5.0.0/2Ship-Battler-Alfa-Linux.zip" size="16246727" type="application/zip"/>
+        </implementation>
     </group>
     <group arch="Windows-x86_64">
         <command name="run" path="2ship.exe"/>
@@ -119,6 +123,10 @@
         <implementation id="Windows-x86_64-4.0.2" released="2026-03-02" version="4.0.2">
             <manifest-digest sha256new="K2NZYZIETXZGTGSQYHNBXDIMZFSOPKADB2LUS27FH6TEZHJNKUEQ"/>
             <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/4.0.2/2Ship-Keiichi-Charlie-Win64.zip" size="49658653" type="application/zip"/>
+        </implementation>
+      <implementation id="Windows-x86_64-5.0.0" released="2026-08-11" version="5.0.0">
+            <manifest-digest sha256new="W2RBKTN27UAOZXTEMPGPMEH5PYJE2DCXXJHABDRXKLFVC54BWPKA"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/5.0.0/2Ship-Battler-Alfa-Win64.zip" size="44981820" type="application/zip"/>
         </implementation>
     </group>
 </interface>
