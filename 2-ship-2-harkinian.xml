@@ -66,6 +66,10 @@
             <manifest-digest sha256new="2IIJUTE6GFT4AF3AQGBVXNEIHDELBEJRBGBYNR5JBHHXX3ZK6E2A"/>
             <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/5.0.0/2Ship-Battler-Alfa-Linux.zip" size="16246727" type="application/zip"/>
         </implementation>
+      <implementation id="Linux-x86_64-5.0.1" released="2026-08-25" version="5.0.1">
+            <manifest-digest sha256new="QDVRJ3T4FY47AETXOGPV5TGQBS45ZB7KVWFMWCV2G5F67CRBKPCQ"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/5.0.1/2Ship-Battler-Bravo-Linux.zip" size="16262941" type="application/zip"/>
+        </implementation>
     </group>
     <group arch="Windows-x86_64">
         <command name="run" path="2ship.exe"/>
@@ -129,10 +133,14 @@
             <manifest-digest sha256new="W2RBKTN27UAOZXTEMPGPMEH5PYJE2DCXXJHABDRXKLFVC54BWPKA"/>
             <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/5.0.0/2Ship-Battler-Alfa-Win64.zip" size="44981820" type="application/zip"/>
         </implementation>
+      <implementation id="Windows-x86_64-5.0.1" released="2026-08-25" version="5.0.1">
+            <manifest-digest sha256new="QX6JF35UDOUUV5TJEPZJBI2RSX7VYNWUELN5JT4RDTGADG2WW5WA"/>
+            <archive href="https://github.com/HarbourMasters/2ship2harkinian/releases/download/5.0.1/2Ship-Battler-Bravo-Win64.zip" size="44976935" type="application/zip"/>
+        </implementation>
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCan9ukwAKCRDgFP8eMvv3HpiQAQDM/NWw
-n4SwoTd7dPEgGNkomTvNcbtPCO5uY42HOgfD0gEA3Zs0QOCFiEZRQUq3AUKtEf+gPEfGzuOMgzDu
-frcqlA4=
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCao8V5AAKCRDgFP8eMvv3Ho6EAQCXT0Yp
+NyHrXu5q8TwfkfISab1srWztpWrdGZiRFa8f7AD/cPHmWgOLd1XJ6+Y0iNOBXAIPTze7WoHhoCFs
+K4CLdgA=
 -->
