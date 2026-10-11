@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 <?xml-stylesheet href="resources/feed.xsl" type="text/xsl"?>
 <interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://lepideble.github.io/packages/ship-of-harkinian.xml">
     <name>Ship of Harkinian</name>
@@ -59,6 +59,10 @@
             <manifest-digest sha256new="NHVPDR4Y4QOIEPDFI6NE725EDABEDHURPEAGWCOYSVKCTWOIVC7A"/>
             <archive href="https://github.com/HarbourMasters/Shipwright/releases/download/9.2.3/SoH-Ackbar-Delta-Linux.zip" size="28310917" type="application/zip"/>
         </implementation>
+        <implementation id="9.3.0-Linux-x86_64" released="2026-10-06" version="9.3.0">
+            <manifest-digest sha256new="LC3V3PUQXTZHC2SATMJRQNGFH3VXICHTC4POP2HAMKN6BJPLA4WQ"/>
+            <file href="https://github.com/HarbourMasters/Shipwright/releases/download/9.3.0/SoH-Dewey-Alpha.appimage" size="32113856" dest="soh.appimage" executable="true"/>
+        </implementation>
     </group>
     <group arch="Windows-x86_64">
         <command name="run" path="soh.exe"/>
@@ -114,10 +118,14 @@
             <manifest-digest sha256new="TDSRSOFBW5UZ4NZZB7COIF5IIUFOZQGIX3V5NY4TLEGEXFQ6LHMQ"/>
             <archive href="https://github.com/HarbourMasters/Shipwright/releases/download/9.2.3/SoH-Ackbar-Delta-Win64.zip" size="71894139" type="application/zip"/>
         </implementation>
+        <implementation id="9.3.0-Windows-x86_64" released="2026-10-06" version="9.3.0">
+            <manifest-digest sha256new="LIUCPJS2I6O4CNP7QNCSYAGWHHJFT3AU56KS6L5XPUAWUMFEHX2A"/>
+            <archive href="https://github.com/HarbourMasters/Shipwright/releases/download/9.3.0/SoH-Dewey-Alpha-Win64.zip" size="72814046"/>
+        </implementation>
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCad/9rwAKCRDgFP8eMvv3HsTrAP9ejt6h
-LNeGZIv52HsF2pKJYYJ0AHDqalec7ct6bc4x5gD+NT3ADK8VmxawAOtynM6uPHSktzKVcxz+div7
-2hFzugc=
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCasuy1gAKCRDgFP8eMvv3HrL3AP0WQQcd
+PHrermFlCegMxgqfx0YyxoDuuvvCN6E+GafVTAD+LLRuKqwu5DQ1t+Iy0wXzMCOUBaILIX1Yu9nA
+UOog3AY=
 -->
