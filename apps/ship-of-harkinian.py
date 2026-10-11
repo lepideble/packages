@@ -1,40 +1,59 @@
-import json
-from urllib import request
+from jvasseur.packaging.app.github import ArchiveGitHubApp, FileGitHubApp, GitHubApp
+from jvasseur.packaging.feed import Command
+from config import base_url
 
-from lib import app, feed
+class ShipOfHarkinian(GitHubApp):
+    uri = base_url + 'ship-of-harkinian.xml'
+    repo = 'HarbourMasters/Shipwright'
 
-class ShipOfHarkinian(app.App):
-    name = 'Ship of Harkinian'
-    summary = 'port of the 1998 Nintendo 64 video game The Legend of Zelda: Ocarina of Time'
+    def version(self, tag_name):
+        version = tag_name.split('.')
+        # Ignore non-numeric versions
+        if not version[0].isnumeric() or not version[1].isnumeric():
+            return None
 
-    def versions(self):
-        releases = json.loads(request.urlopen(request.Request('https://api.github.com/repos/HarbourMasters/Shipwright/releases')).read())
+        # Ignore versions before 9.3.0
+        if (int(version[0]), int(version[1])) < (9, 3):
+            return None
 
-        # Ignore versions before 9.0.0
-        releases = [release for release in releases if release['tag_name'].split('.')[0].isnumeric() and int(release['tag_name'].split('.')[0]) >= 9]
+        return super().version(tag_name)
 
-        return [{
-            'version': release['tag_name'],
-            'released': release['published_at'][0:10],
-            'files': {
-                'Linux-x86_64': next(asset['browser_download_url'] for asset in release['assets'] if asset['name'].endswith('-Linux.zip')),
-                'Windows-x86_64': next(asset['browser_download_url'] for asset in release['assets'] if asset['name'].endswith('-Win64.zip')),
-            },
-        } for release in releases]
+    def assets(self, assets):
+        for asset in assets:
+            if asset['name'].endswith('.appimage'):
+                yield 'Linux-x86_64', asset
+            if asset['name'].endswith('-Win64.zip'):
+                yield 'Windows-x86_64', asset
 
-    @property
-    def archs(self):
-        yield 'Linux-x86_64'
-        yield 'Windows-x86_64'
+    def manifest_digest(self, data):
+        match data['arch']:
+            case 'Linux-x86_64':
+                return FileGitHubApp.manifest_digest(self, data)
+            case 'Windows-x86_64':
+                return ArchiveGitHubApp.manifest_digest(self, data)
 
-    def commands(self, arch):
-        if arch == 'Linux-x86_64':
-            yield feed.Command(name='run', path='soh.appimage')
-        if arch == 'Windows-x86_64':
-            yield feed.Command(name='run', path='soh.exe')
+    def retrieval(self, data):
+        match data['arch']:
+            case 'Linux-x86_64':
+                return FileGitHubApp.retrieval(self, data)
+            case 'Windows-x86_64':
+                return ArchiveGitHubApp.retrieval(self, data)
 
-    def archive(self, arch, version):
-        return version['files'][arch], None
+    def commands(self, data):
+        match data['arch']:
+            case 'Linux-x86_64':
+                yield Command(name='run', path=self.file_name(data))
+            case 'Windows-x86_64':
+                yield Command(name='run', path='soh.exe')
 
-if __name__ == "__main__":
-    ShipOfHarkinian().update()
+    def file_name(self, data):
+        return 'soh.appimage'
+
+    def file_executable(self, data):
+        return True
+
+    def extract(self, data):
+        return None
+
+if __name__ == '__main__':
+    ShipOfHarkinian().main()

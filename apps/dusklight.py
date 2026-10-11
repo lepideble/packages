@@ -1,4 +1,4 @@
-from jvasseur.packaging.feed import Command, Runner
+from jvasseur.packaging.feed import Command
 from jvasseur.packaging.app.github import ArchiveGitHubApp, FileGitHubApp, GitHubApp
 from config import base_url
 
