@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="resources/feed.xsl" type="text/xsl"?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://lepideble.github.io/packages/bizhawk.xml">
+    <name>BizHawk</name>
+    <summary>multi-system emulator written in C#</summary>
+    <group arch="Windows-x86_64">
+        <command name="run" path="EmuHawk.exe"/>
+        <implementation id="2.6-Windows-x86_64" released="2021-01-17" version="2.6">
+            <manifest-digest sha256new="SQ5YBMH7NLP6YXI2W23HYUCYSLZRN5VA4B7EXO32EEFBP4IBO3AQ"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.6/BizHawk-2.6-win-x64.zip" size="31656182"/>
+        </implementation>
+        <implementation id="2.6.1-Windows-x86_64" released="2021-02-21" version="2.6.1">
+            <manifest-digest sha256new="TIPHWDJYDI6M625RAKBISZCQUCBLVYFA6NXNBJCG5B6P5D63PXBA"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.6.1/BizHawk-2.6.1-win-x64.zip" size="31543131"/>
+        </implementation>
+        <implementation id="2.6.2-Windows-x86_64" released="2021-05-26" version="2.6.2">
+            <manifest-digest sha256new="QD2ZIHZRQLWAVUQ4ISITJ35TH5QGVRVO4NLUIXYBX4C7R64YBREA"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.6.2/BizHawk-2.6.2-win-x64.zip" size="32313155"/>
+        </implementation>
+        <implementation id="2.6.3-Windows-x86_64" released="2021-10-01" version="2.6.3">
+            <manifest-digest sha256new="EBHDKI6XXEBWCKOCE3RZUDPOFQK2BN6HFA4M5QI6BOG6KQ5MVXWA"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.6.3/BizHawk-2.6.3-win-x64.zip" size="33265677"/>
+        </implementation>
+        <implementation id="2.7-Windows-x86_64" released="2021-11-12" version="2.7">
+            <manifest-digest sha256new="OTWEIZWEWX3R5VWYV6QNVWU3X7C6G742SEDJNZNCVMQ7GWIFSB7Q"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.7/BizHawk-2.7-win-x64.zip" size="34964550"/>
+        </implementation>
+        <implementation id="2.8-rc1-Windows-x86_64" released="2022-01-26" version="2.8-rc1">
+            <manifest-digest sha256new="PJHXZJXFS7ODGF73MT4T6RRZWW4RCW6MB7HGQUUQHLTWLSGKVOEA"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.8-rc1/BizHawk-2.8-rc1-win-x64.zip" size="35492208"/>
+        </implementation>
+        <implementation id="2.8-Windows-x86_64" released="2022-02-19" version="2.8">
+            <manifest-digest sha256new="SMFNKJIYRGNNFMP7UTIOWKXOD6D5M336CNGDQLOS36HK76F5ZI3Q"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.8/BizHawk-2.8-win-x64.zip" size="42100803"/>
+        </implementation>
+        <implementation id="2.9-rc1-Windows-x86_64" released="2022-12-07" version="2.9-rc1">
+            <manifest-digest sha256new="4GHLV6AUCBU3GITS27HSA2QXRTJAT6AY46M6PEPJSG2JJAJT3FSQ"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.9-rc1/BizHawk-2.9-rc1-win-x64.zip" size="67939858"/>
+        </implementation>
+        <implementation id="2.9-rc2-Windows-x86_64" released="2022-12-07" version="2.9-rc2">
+            <manifest-digest sha256new="AHBGRZWWPCMXZCQW3C7GPRQYYC4M6UAQUWIH26J5OQTTO3J36E7Q"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.9-rc2/BizHawk-2.9-rc2-win-x64.zip" size="67939691"/>
+        </implementation>
+        <implementation id="2.9-rc3-Windows-x86_64" released="2023-03-16" version="2.9-rc3">
+            <manifest-digest sha256new="PUNEDVZ6WYLL4ZCD5HT4MBWYXJIPNMMBFTU4RXMHRKYMWY3RZVOQ"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.9-rc3/BizHawk-2.9-rc3-win-x64.zip" size="68391172"/>
+        </implementation>
+        <implementation id="2.9-Windows-x86_64" released="2023-04-07" version="2.9">
+            <manifest-digest sha256new="OQRNJ3U5NZNVKQ6HWYZPJGSZ56TYMGL2CZKAJTNG5BYZGR32WNLA"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.9/BizHawk-2.9-win-x64.zip" size="67320227"/>
+        </implementation>
+        <implementation id="2.9.1-Windows-x86_64" released="2023-05-03" version="2.9.1">
+            <manifest-digest sha256new="NJALV2DKAH6SRGR4G7DFOWU3NLZMH6VLZFQCPHSOZ77SBQ2UAPYQ"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.9.1/BizHawk-2.9.1-win-x64.zip" size="65565384"/>
+        </implementation>
+        <implementation id="2.10-rc1-Windows-x86_64" released="2024-09-14" version="2.10-rc1">
+            <manifest-digest sha256new="3NVKM2QEEL4YDZKCG7Q3P6AABFNREKRBB7LADQXKSWMDU7BWA6IA"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.10-rc1/BizHawk-2.10-rc1-win-x64.zip" size="79875386"/>
+        </implementation>
+        <implementation id="2.10-Windows-x86_64" released="2025-01-07" version="2.10">
+            <manifest-digest sha256new="KHYRZ5GVCHD32P734TPBQ4UTPCHY33OD53DTWXI6IJHBEQZKECAA"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.10/BizHawk-2.10-win-x64.zip" size="79889511"/>
+        </implementation>
+        <implementation id="2.11-Windows-x86_64" released="2025-09-20" version="2.11">
+            <manifest-digest sha256new="L3DCALYKNHAH5KEYSTL2SGLX65GDSGICC42TI36CQIMJGKQFHS2Q"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.11/BizHawk-2.11-win-x64.zip" size="91301556"/>
+        </implementation>
+        <implementation id="2.11.1-Windows-x86_64" released="2026-05-01" version="2.11.1">
+            <manifest-digest sha256new="ZFDRCDRIKZX5HAB2TOZZYLVXBTGPGJXM7EGXGJSY3IJ2JGWD464A"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.11.1/BizHawk-2.11.1-win-x64.zip" size="97984101"/>
+        </implementation>
+    </group>
+    <group arch="Linux-x86_64">
+        <command name="run" path="EmuHawk.exe">
+            <environment name="LD_LIBRARY_PATH" insert="dll" mode="append"/>
+            <environment name="LD_LIBRARY_PATH" insert="" mode="append"/>
+            <environment name="MONO_CRASH_NOFILE" value="1" mode="replace"/>
+            <environment name="MONO_WINFORMS_XIM_STYLE" value="disabled" mode="replace"/>
+            <runner interface="https://apps.0install.net/dotnet/mono.xml"/>
+            <arg>--config=${HOME}/.config/bizhawk.json</arg>
+        </command>
+        <implementation id="2.6.3-Linux-x86_64" released="2021-10-01" version="2.6.3">
+            <manifest-digest sha256new="WIHCFURTHETIXIFE7T425JLS2OEFRJPDDSSJSV5VQDCLCZKVBPXQ"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.6.3/BizHawk-2.6.3-linux-x64.tar.gz" size="32752688"/>
+        </implementation>
+        <implementation id="2.7-Linux-x86_64" released="2021-11-12" version="2.7">
+            <manifest-digest sha256new="P4CTA5DFMJUDWHF4EJS5DPW67LOW372W76MYK3RVRU73G4H6WP2A"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.7/BizHawk-2.7-linux-x64.tar.gz" size="34459175" extract="BizHawk-2.7-linux-x64"/>
+        </implementation>
+        <implementation id="2.8-rc1-Linux-x86_64" released="2022-01-26" version="2.8-rc1">
+            <manifest-digest sha256new="MWR2S74KWGRMEHJQTGRFY2EKKOXWUQHVCIUKAQU2CML3ZX35IABA"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.8-rc1/BizHawk-2.8-rc1-linux-x64.tar.gz" size="35009276"/>
+        </implementation>
+        <implementation id="2.8-Linux-x86_64" released="2022-02-19" version="2.8">
+            <manifest-digest sha256new="3KQZPWX3TWG6AULI63Q5WGARKBKI6JWBAVTUKJESMXJFQ4LVQKXA"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.8/BizHawk-2.8-linux-x64.tar.gz" size="41548693"/>
+        </implementation>
+        <implementation id="2.9-rc1-Linux-x86_64" released="2022-12-07" version="2.9-rc1">
+            <manifest-digest sha256new="GBSZ7LSIATG5QCYBLZ5GV5NUVCTJ7U2PEQHOZILMMW6Q66SBRFPA"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.9-rc1/BizHawk-2.9-rc1-linux-x64.tar.gz" size="67457778"/>
+        </implementation>
+        <implementation id="2.9-rc2-Linux-x86_64" released="2022-12-07" version="2.9-rc2">
+            <manifest-digest sha256new="AF2ZISKHZ7TIBUYE5Z46KM5E2LWVHGPPZ4ODOCMXFHANM5DBCZVA"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.9-rc2/BizHawk-2.9-rc2-linux-x64.tar.gz" size="67357258"/>
+        </implementation>
+        <implementation id="2.9-rc3-Linux-x86_64" released="2023-03-16" version="2.9-rc3">
+            <manifest-digest sha256new="5UCUN7FLNATDETLHWMHNJFMJNJSU5UZC62PM5EE3RQ7PGHKQE6AA"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.9-rc3/BizHawk-2.9-rc3-linux-x64.tar.gz" size="67801742"/>
+        </implementation>
+        <implementation id="2.9-Linux-x86_64" released="2023-04-07" version="2.9">
+            <manifest-digest sha256new="5RE4F26BATZ5P5HLZRVQUESZ3W5QMVLEB3RYACWPMIXWVGQANYTQ"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.9/BizHawk-2.9-linux-x64.tar.gz" size="66739368" extract="BizHawk-2.9-linux-x64"/>
+        </implementation>
+        <implementation id="2.9.1-Linux-x86_64" released="2023-05-03" version="2.9.1">
+            <manifest-digest sha256new="F2ZMGAPXFFRZ65NR5A7J7R2QW4IS7ROLNGQR6UA7VWOIFVGWZY2Q"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.9.1/BizHawk-2.9.1-linux-x64.tar.gz" size="60939716"/>
+        </implementation>
+        <implementation id="2.10-rc1-Linux-x86_64" released="2024-09-14" version="2.10-rc1">
+            <manifest-digest sha256new="6Y46BTLWTH4VBY6GEJA5MZJSCCPD5VAQZOMF5SJQYLCDQWYOXXEA"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.10-rc1/BizHawk-2.10-rc1-linux-x64.tar.gz" size="77903692"/>
+        </implementation>
+        <implementation id="2.10-rc2-Linux-x86_64" released="2024-11-26" version="2.10-rc2">
+            <manifest-digest sha256new="D4BALTDI4NGSGYHC3QE6OQ3FVUZE3767RTQARYIIEKW7CUYKUXGA"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.10-rc2/BizHawk-2.10-rc2-linux.tar.gz" size="77336015" extract="BizHawk-2.10-rc2-linux"/>
+        </implementation>
+        <implementation id="2.10-Linux-x86_64" released="2025-01-07" version="2.10">
+            <manifest-digest sha256new="XN7B77ADBAZHLK65HUXKKBTOHDQLGZLFE6PLLPIF43FPDTMHTIRA"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.10/BizHawk-2.10-linux-x64.tar.gz" size="75579450"/>
+        </implementation>
+        <implementation id="2.11-Linux-x86_64" released="2025-09-20" version="2.11">
+            <manifest-digest sha256new="PBECL4XOHH7DZQA5F2SLSIH6TD3QHK7YNI5LONAGOF54VZ6DKTUQ"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.11/BizHawk-2.11-linux-x64.tar.gz" size="88939664" extract="BizHawk-2.11-linux-x64"/>
+        </implementation>
+        <implementation id="2.11.1-Linux-x86_64" released="2026-05-01" version="2.11.1">
+            <manifest-digest sha256new="GSPKZDRHWYUZ2MOCZ7VM72C4VJJ7M6YOWNVF5OTNGTVNQ7LVUM2Q"/>
+            <archive href="https://github.com/TASEmulators/BizHawk/releases/download/2.11.1/BizHawk-2.11.1-linux-x64.tar.gz" size="97169408" extract="BizHawk-2.11.1-linux-x64"/>
+        </implementation>
+    </group>
+</interface>
+<!-- Base64 Signature
+iHUEABYKAB0WIQR8bzmJU/G3eipmcNfgFP8eMvv3HgUCatPfbwAKCRDgFP8eMvv3Hh0HAP46dVZ/
+4RTcDXWEmPoOpn8jFHXAWCAu82Uh/hNqoSFZSAEAjvqVKkG1T8bRM3aImMZU1nwQp1oh93ivRLL4
+3HOlBAY=
+-->
