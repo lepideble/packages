@@ -62,6 +62,10 @@
             <manifest-digest sha256new="LC3V3PUQXTZHC2SATMJRQNGFH3VXICHTC4POP2HAMKN6BJPLA4WQ"/>
             <file href="https://github.com/HarbourMasters/Shipwright/releases/download/9.3.0/SoH-Dewey-Alpha.appimage" size="32113856" dest="soh.appimage" executable="true"/>
         </implementation>
+        <implementation id="9.3.1-Linux-x86_64" released="2026-10-18" version="9.3.1">
+            <manifest-digest sha256new="DYLAQ5W6IBV4NH2P6ADX5AGMHBBUDB7LPKBOYXGI2DQMS6IXXO2A"/>
+            <file href="https://github.com/HarbourMasters/Shipwright/releases/download/9.3.1/SoH-Dewey-Bravo.appimage" size="32113856" dest="soh.appimage" executable="true"/>
+        </implementation>
     </group>
     <group arch="Windows-x86_64">
         <command name="run" path="soh.exe"/>
@@ -120,6 +124,10 @@
         <implementation id="9.3.0-Windows-x86_64" released="2026-10-06" version="9.3.0">
             <manifest-digest sha256new="LIUCPJS2I6O4CNP7QNCSYAGWHHJFT3AU56KS6L5XPUAWUMFEHX2A"/>
             <archive href="https://github.com/HarbourMasters/Shipwright/releases/download/9.3.0/SoH-Dewey-Alpha-Win64.zip" size="72814046"/>
+        </implementation>
+        <implementation id="9.3.1-Windows-x86_64" released="2026-10-18" version="9.3.1">
+            <manifest-digest sha256new="UPZ4VAUKHHGTMJY4FZ3G466TDGEG6BLN6T56BTIDCCDT4BOD2ODA"/>
+            <archive href="https://github.com/HarbourMasters/Shipwright/releases/download/9.3.1/SoH-Dewey-Bravo-Win64.zip" size="72980600"/>
         </implementation>
     </group>
 </interface>
